@@ -1,0 +1,103 @@
+Online Statistics Education: An Interactive Multimedia Course of Study
+http://onlinestatbook.com/2/index.html
+
+
+part1. introduction
+
+Inferential Statistics
+In statistics, we often rely on a sample --- that is, a small subset of a larger set of data --- to draw inferences about the larger set. The larger set is known as the population.
+
+Simple Random Sampling
+Such sampling requires every member of the population to have an equal chance of being selected into the sample. 
+In addition, the selection of one member must be independent of the selection of every other member. 
+That is, picking one member from the population must not increase or decrease the probability of picking any other member (relative to the others). 
+
+Random sampling chooses a sample by pure chance
+
+More Complex Sampling
+1. Random Assignment : used for experiment studies: experimental group vs control group, 
+Random assignment is critical for the validity of an experiment. 
+In experimental research of this kind, failure to assign subjects randomly to groups is generally more serious than having a non-random sample.
+Failure to randomize (the former error) invalidates the experimental findings. A non-random sample (the latter error) simply restricts the generalizability of the results.
+
+2. Stratified Sampling: 
+In stratified sampling, you first identify members of your sample who belong to each group. 
+Then you randomly sample from each of those subgroups in such a way that the sizes of the subgroups in the sample are proportional to their sizes in the population. 
+
+Stratified sampling is more likely to be representative of the population than random sampling.
+The only way to eliminate uncertainty is to obtain data from the whole population. You can reduce uncertainty with a large sample.
+Using a random sample:
+is to accept some uncertainty about the conclusions. 
+
+enables you to calculate statistics. 
+
+is to risk drawing the wrong conclusions about the population. 
+ 
+A biased sample is one that 
+
+will likely have groups from the population over-represented or under-represented due to systematic sampling factors. 
+Bias is defined by the procedure for drawing the sample, not by the result.
+
+Levels of Measurement
+nominal, ordinal, interval, and ratio scales
+ordinal scales fail to capture important informations
+In particular, the difference between two levels of an ordinal scale cannot be assumed to be the same as the difference between two other levels.
+Statisticians express this point by saying that the differences between adjacent scale values do not necessarily represent equal intervals on the underlying scale giving rise to the measurements.
+
+Interval scales are numerical scales in which intervals have the same interpretation throughout. 
+Interval scales are not perfect, however. In particular, they do not have a true zero point even if one of the scaled values happens to carry the name "zero." 
+For example, there is no sense in which the ratio of 40 to 20 degrees Fahrenheit is the same as the ratio of 100 to 50 degrees; no interesting physical property is preserved across the two ratios. 
+The ratio scale of measurement is the most informative scale. It is an interval scale with the additional property that its zero position indicates the absence of the quantity being measured. 
+You can think of a ratio scale as the three earlier scales rolled up in one. Like a nominal scale, it provides a name or category for each object (the numbers serve as labels). 
+Like an ordinal scale, the objects are ordered (in terms of the ordering of the numbers). Like an interval scale, the same difference at two places on the scale has the same meaning. 
+And in addition, the same ratio at two places on the scale also carries the same meaning.
+
+Rating scales are used frequently in psychological research.
+Typically these ratings are made on a 5-point or a 7-point scale. These scales are ordinal scales since there is no assurance that a given difference represents the same thing across the range of the scale. 
+
+Does it make sense to compute the mean of numbers measured on an ordinal scale? This is a difficult question, one that statisticians have debated for decades. 
+The prevailing (but by no means unanimous) opinion of statisticians is that for almost all practical situations, the mean of an ordinally-measured variable is a meaningful statistic. 
+However, as you will see in the simulation, there are extreme situations in which computing the mean of an ordinally-measured variable can be very misleading.
+
+Ordinal scales preserve the order of the values, but not the differences between values.
+
+http://onlinestatbook.com/2/introduction/measurement_demo.html
+A difference between the means of two groups on an ordinal rating scale : 
+For all but the most extraordinary situations, differences between means on interval scales are meaningful. 
+, in extreme circumstances, it is possible for the difference on an ordinal scale to be in the oppostite direction from the difference on an interval scale.
+
+
+Distributions
+frequency distribution VS probability distribution
+Distributions of Discrete Variables
+
+Table 1. Frequencies in the Bag of M&M's
+Color	Frequency
+Brown	17
+Red		18
+Yellow	7
+Green	7
+Blue		2
+Orange	4
+
+This table is called a frequency table and it describes the distribution of M&M color frequencies. 
+We call Figure 2 a probability distribution because if you choose an M&M at random, the probability of getting, say, a brown M&M is equal to the proportion of M&M's that are brown (0.30).
+
+Chance factors involving the machines used by the manufacturer introduce random variation into the different bags produced. Some bags will have a distribution of colors that is close to Figure 2; 
+others will be further away.
+
+Continuous Variables
+histogram can be used to show the grouped frequency distribution
+
+Probability Densities (continuous distribution)
+normal distribution: The Y-axis in the normal distribution represents the "density of probability." Intuitively, it shows the chance of obtaining values near corresponding points on the X-axis.
+
+the curve that describes a continuous distribution (like the normal distribution). 
+First, the area under the curve equals 1. 
+Second, the probability of any exact value of X is 0. 
+Finally, the area under the curve and bounded between two given points on the X-axis is the probability that a number chosen at random will fall between the two points.
+
+A distribution with two peaks is called a bimodal distribution.
+Distributions also differ from each other in terms of how large or "fat" their tails are. 
+The upper distribution has relatively more scores in its tails; its shape is called leptokurtic. The lower distribution has relatively fewer scores in its tails; its shape is called platykurtic.
+
