@@ -1,0 +1,77 @@
+http://onlinestatbook.com/2/case_studies/angry_moods.html
+
+Overview
+People have different ways of improving their mood when angry. We have all seen people punch a wall when mad, and indeed, previous research has indicated that some people aggress to improve their mood (Bushman, Baumeister & Phillips, 2001). What do the top athletes do when angry? Striegel (1994) found that anger often hurts an athlete’s performance and that capability to control anger is what makes good athletes even better. This study adds to the past research and examines the difference in ways to improve an angry mood by gender and sports participation.
+The participants were 78 Rice University undergraduates, ages 17 to 23. Of these 78 participants, 48 were females and 30 were males and 25 were athletes and 53 were non-athletes. People who did not play a varsity or club sport were considered non-athletes. The 13 contact sport athletes played soccer, football, rugby, or basketball, and the 12 non-contact sport athletes participated in Ultimate Frisbee, baseball, tennis, swimming, volleyball, crew, or dance. 
+
+The participants were asked to respond to a questionnaire that asked about what they do to improve their mood when angry or furious. Then they filled out a demographics questionnaire. 
+
+Note: This study used the most recent version of the State-Trait Anger Expression Inventory (STAXI-2) (Spielberger, Sydeman, Owen & Marsh, 1999) which was modified to create an Angry Mood Improvement Inventory similar to that created by Bushman et al. (2001).
+
+
+
+Questions to Answer
+Do athletes and non-athletes deal with anger in the same way? Are there any gender differences? Specifically, are men more likely to believe that aggressive behavior can improve an angry mood? 
+
+Design Issues 
+This study has an extremely unbalanced design. There were a lot more non-athletes than athletes in the sample. In the future, more athletes should be used. This study originally wanted to look at contact and non-contact athletes separately, but there were not enough participants to do this. Future studies could look at this. 
+
+Descriptions of Variables
+Variable	Description
+Sports	1 = athletes, 2 = non-athletes
+Gender	1 = males, 2 = females
+Anger-Out (AO)	high scores demonstrate that people deal with anger by expressing it in a verbally or physically aggressive fashion
+Anger-In 
+(AI)	high scores demonstrate that people experience anger but do not express it (suppress their anger)
+Control-Out (CO)	high scores demonstrate that people control the outward expression of angry feelings
+Control-In (CI)	high scores demonstrate that people control angry feelings by calming down or cooling off
+Expression (AE)	index of general anger expression: 
+(Anger-Out) + (Anger-In) - (Control-Out) - (Control-In) + 48
+Note: Description of the items comes from Spielberger et al. (1999). 
+
+
+References
+Bushman, B.J., Baumeister, R.F. & Phillips, C.M. (2001). Do people aggress to improve their mood? Catharsis beliefs, affect regulation opportunity, and aggressive responding. Journal of Personality and Social Psychology, 81(1), 17-32.
+
+Spielberger, C. D., Sydeman, S. J., Owen, A. E., Marsh, B. J. (1999). Measuring anxiety and anger with the State-Trait Anxiety Inventory (STAI) and the State-Trait Anger Expression Inventory (STAXI). In M. E. Maruish (Ed.), The use of psychological testing for treatment planning and outcomes assessment (2nd ed., pp. 993-1021). Mahwah: Lawrence Erlbaum Associates.
+
+Striegel, D. (1994). Anger in tennis: Part 2. Effects of anger on performance, coping with anger, and using anger to one’s benefit. Journal of Performance Psychology, 2, 56-92.
+
+
+Links
+Publisher's description
+
+
+Exercises
+Which variables are the participant variables? (They act as independent variables in this study.)
+What are the dependent variables?
+Is Anger-Out a quantitative or qualitative variable?
+Does Anger-Out have a positive skew, a negative skew, or no skew?
+What are the mean and standard deviation of the Anger-Out scores? Compute a confidence interval for the mean Anger-Out score.
+Is there a difference in how much males and females use aggressive behavior to improve an angry mood? For the "Anger-Out" scores:
+Create parallel box plots.
+Create a back-to-back stem and leaf displays (You may have trouble finding a computer to do this so you may have to do it by hand).
+Compute a confidence interval on the difference between means.
+Compute a significance test on the difference between means using a t test.
+Compute a significance test on the difference between means using ANOVA. Compare your results to (d) above.
+What is the range of the Anger-In scores? What is the interquartile range?
+Create parallel box plots for the Anger-In scores by sports participation. 
+Calculate the confidence interval for the difference between mean Anger-In score for the athletes and non-athletes. What can you conclude?
+Plot a histogram of the distribution of the Control-Out scores. 
+What is the overall mean Control-Out score? What is the mean Control-Out score for the athletes? What is the mean Control-Out score for the non-athletes?
+Determine if the difference in the mean Control-Out score for athletes and non-athletes is statistically significant.
+Create a bar graph comparing the mean Control-In score for the athletes and the non-athletes. What would be a better way to display this data?
+What is the variance of the Control-In scores for the athletes? What is the variance of the Control-In scores for the non-athletes? 
+What is the standard error of the mean for the Control-In scores for the athletes? What is the standard error of the mean of the Control-In scores for the non-athletes? Why is it smaller for non-athletes?
+Do athletes or non-athletes calm down more when angry? Conduct a t test to see if the difference between groups in Control-In scores is statistically significant. 
+Plot parallel box plots of the Anger Expression Index by sports participation. Does it look like there are any outliers? Which group reported expressing more anger?
+Plot parallel box plots of the Anger Expression Index by gender. 
+Using the Anger Expression Index as the dependent variable, perform a 2x2 ANOVA with gender and sports participation as the two factors. Do athletes and non-athletes differ significantly in how much anger they express? Do the genders differ significantly in Anger Expression Index? Is the effect of sports participation significantly different for the two genders?
+What is the correlation between the Control-In and Control-Out scores? Is this correlation statistically significant at the 0.01 level?
+Would you expect the correlation between the Anger-Out and Control-Out scores to be positive or negative? Compute this correlation.
+Find the regression line for predicting Anger-Out from Control-Out.
+What is the slope?
+What is the intercept?
+Is the relationship at least approximately linear?
+Test to see if the slope is significantly different from 0.
+What is the standard error of the estimate?
