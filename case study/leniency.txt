@@ -1,0 +1,33 @@
+http://onlinestatbook.com/2/case_studies/leniency.html
+Overview
+Dale Carnegie stated that smiling helps win friends and influence people. Research on the effects of smiling has backed this up and shown that a smiling person is judged to be more pleasant, attractive, sincere, sociable, and competent than a non-smiling person. 
+
+There is evidence that smiling can attenuate judgments of possible wrongdoing. This phenomenon termed the "smile-leniency effect" was the focus of a study by Marianne LaFrance & Marvin Hecht in 1995. 
+
+Questions to Answer
+Does smiling increase leniency? Are different types of smiles differentially effective? 
+
+Design Issues 
+There was a single person used for all the conditions. This may limit the generalizeability of the results. 
+
+Descriptions of Variables
+Variable	Description	
+Smile	1 is false smile
+2 is felt smile
+3 is miserable smile
+4 is neutral control
+Leniency	A measure of how lenient the judgments were.
+
+
+References
+LaFrance, M., & Hecht, M. A. (1995) Why smiles generate leniency. Personality and Social Psychology Bulletin, 21, 207-214.
+
+
+Links 
+Exercises
+Create parallel boxplots for the four conditions.
+Find the mean, median, standard deviation, and interquartile range for each group.
+Create back-back stem and leaf displays for the false smile and neutral conditions (It may be hard to find a computer program to do this for you, so be prepared to do it by hand).
+Compute a one-way ANOVA.
+Use the Tukey test to compare each mean to each other mean.
+Compare each mean to the neutral mean using Dunnett's test.

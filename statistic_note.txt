@@ -133,7 +133,7 @@ Interval's Lower Limit	Interval's Upper Limit	Class Frequency
 99.5	109.5	78
 109.5	119.5	59
 119.5	129.5	36
-129.5	139.5	11
+129.5	139.5	11s
 139.5	149.5	6
 149.5	159.5	1
 159.5	169.5	1
@@ -161,4 +161,13 @@ Frequency polygons are useful for comparing distributions. This is achieved by o
 Frequency polygons are better at comparing distributions because two frequency polygons can be displayed in the same graph without obscuring each other. 
 Both histograms and frequency polygons show the shape of the distribution. Neither necessarily reveals the exact values in a distribution.
 Frequency polygons are a graphical device for understanding the shapes of distributions. They serve the same purpose as histograms, but are especially helpful for comparing sets of data.
+
+Boxplot
+Since half the scores in a distribution are between the hinges (recall that the hinges are the 25th and 75th percentiles), 
+we see that half the women's times are between 17 and 20 seconds, whereas half the men's times are between 19 and 25.5. 
+We also see that women generally named the colors faster than the men did, although one woman was slower than almost all of the men.
+
+a distribution with a positive skew would have a longer whisker in the positive direction than in the negative direction. 
+A larger mean than median would also indicate a positive skew. Box plots are good at portraying extreme values and are especially good at showing differences between distributions. 
+However, many of the details of a distribution are not revealed in a box plot, and to examine these details one should create a histogram and/or a stem and leaf display.
 

@@ -1,0 +1,35 @@
+http://onlinestatbook.com/2/case_studies/weight.html
+Overview
+Obese people face discrimination on a daily basis in employment, education, and relationship contexts. Past research has shown that even doctors, who are trained to treat all their patients warmly and have access to literature suggesting uncontrollable and hereditary aspects of obesity, believe obese individuals are undisciplined and suffer from controllability issues. This case study examines how doctors treat overweight as compared to normal weight patients.
+Various doctors at one of three major hospitals in the Texas Medical Center of Houston participated in the study. These doctors were sent a packet containing a medical chart similar to the one they view upon seeing a patient. This chart portrayed a patient who was displaying symptoms of a migraine headache but was otherwise healthy. This chart also contained a measure of the patient's weight. Doctors were randomly assigned to receive the chart of a patient who was overweight or the chart of a patient who was of normal weight. After reviewing the chart, the doctors then had to indicate how much time they believed they would spend with the patient.
+
+
+
+Questions to Answer
+Do doctors discriminate against overweight patients? Specifically, do the doctors who review charts of overweight patients say they would spend the same amount of time with their patients as the doctors who review charts of normal weight patients? 
+
+Design Issues 
+The method and data described here are only a small part of a larger study. See the reference below for a full description of the study. 
+
+Descriptions of Variables
+Variable	Description
+Patient weight	1 = average weight, 2 = overweight
+Time	represents how long the doctors said they would spend with the patient
+
+
+References
+Hebl, M., & Xu, J., "Weighing the care: Physicians' reactions to the size of a patient," International Journal of Obesity, 25 (2001): 1246-1252
+
+
+Links
+The Rudd Institute
+
+
+Exercises
+Create box plots comparing the time expected to be spent with the average-weight and overweight patients.
+What is the mean expected time spent for the average- weight patients? What is the mean expected time spent for the overweight patients?
+What is the difference in means between the groups? Approximately how many standard deviations do the means differ?
+Plot histograms of the time spent with the average-weight and overweight patients.
+To which group does the patient with the highest expected time belong?
+Perform an independent samples t test comparing the time spent with the average-weight patients as compared to the time spent with the overweight patients. Is this difference statistically significant?
+What is the confidence interval on the difference between mean time spent with each group?

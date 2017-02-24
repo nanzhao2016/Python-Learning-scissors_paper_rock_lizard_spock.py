@@ -1,0 +1,53 @@
+http://onlinestatbook.com/2/case_studies/adhd.html
+Overview
+This study investigated the cognitive effects of stimulant medication in children with mental retardation and Attention-Deficit/Hyperactivity Disorder. This case study shows the data for the Delay of Gratification (DOG) task. Children were given various dosages of a drug, methylphenidate (MPH) and then completed this task as part of a larger battery of tests. The order of doses was counterbalanced so that each dose appeared equally often in each position. For example, six children received the lowest dose first, six received it second, etc. The children were on each dose one week before testing.
+
+This task, adapted from the preschool delay task of the Gordon Diagnostic System (Gordon, 1983), measures the ability to suppress or delay impulsive behavioral responses. Children were told that a star would appear on the computer screen if they waited “long enough” to press a response key. If a child responded sooner in less than four seconds after their previous response, they did not earn a star, and the 4-second counter restarted. The DOG differentiates children with and without ADHD of normal intelligence (e.g., Mayes et al., 2001), and is sensitive to MPH treatment in these children (Hall & Kataria, 1992).
+
+
+
+Questions to Answer
+Does higher dosage lead to higher cognitive performance (measured by the number of correct responses to the DOG task)? 
+
+Design Issues 
+This is a repeated-measures design because each participant performed the task after each dosage. 
+
+Descriptions of Variables
+Variable	Description
+d0	Number of correct responses after taking a placebo
+d15	Number of correct responses after taking .15 mg/kg of the drug
+d30	Number of correct responses after taking .30 mg/kg of the drug
+d60	Number of correct responses after taking .60 mg/kg of the drug
+
+
+References
+Gordon M (1983), The Gordon Diagnostic System. DeWitt, NY: Gordon Systems
+
+Hall CW, Kataria S (1992), Effects of two treatment techniques on delay and vigilance tasks with attention deficit hyperactive disorder (ADHD) children. J Psychol 126:17-25
+
+Mayes SD, Calhoun SL, Crowell, EW (2002), The Gordon Diagnostic System and WISC-III Freedom from Distractibility index: Validity in identifying clinic-referred children with and without ADHD. Psychol Rep ,91, 575-587.
+
+Pearson DA, Santos CW, Roache JD, Casat CD, Loveland KA, Lachar D, Lane DM, Faria, LF, Cleveland LA (2003), Treatment effects of methylphenidate on behavioral adjustment in children with mental retardation and ADHD. J Am Acad Child Adolesc Psychiatry, 42, 209-216.
+
+Pearson, D.A., Santos, C.W., Jerger, S.W., Casat, C.D., Roache, J., Loveland, K.A., Lane, D.M., Lachar, D., Faria, L.P., & Getchell, C. (2003) Treatment effects of methylphenidate on cognitive functioning in children with mental retardation and ADHD. Journal of the American Academy of Child and Adolescent Psychiatry, 43, 677-685.
+
+
+Links
+Methylphenidate
+
+
+Exercises
+What is the independent variable of this experiment? How many levels does it have? 
+What is the dependent variable? On what scale (nominal, ordinal, interval, ratio) was it measured?
+Create a line graph of the data. Do certain dosages appear to be more effective than others?
+What is the mean number of correct responses of the participants after taking the placebo (0 mg/kg)? 
+Create a stem and leaf plot of the number of correct responses of the participants after taking the placebo (d0 variable). What can you say about the shape of the distribution? 
+Create a normal quantile plot of d0. What does it tell you and what aspect of the plot reveals this information?
+What are the standard deviation and the interquartile range of the d0 condition?
+What is the correlation between the participants' correct number of responses after taking the placebo and their correct number of responses after taking 0.60 mg/kg of MPH?
+
+Perform a repeated measures ANOVA.
+How many degrees of freedom does the independent variable have?
+What are the F and p values?
+Does the performance of the children on the DOG task differ depending on the dose? 
+Test the difference between the d0 and d60 conditions using a sign test.

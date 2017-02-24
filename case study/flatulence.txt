@@ -1,0 +1,64 @@
+http://onlinestatbook.com/2/case_studies/flatulence.html
+
+Overview
+The purpose of this study was to find out whether or not people are embarrassed by their flatulence. The participants were 35 University of Houston – Downtown students. Flatulence is a normal part of being human, but it can cause an alarming rate of embarrassment in certain situations. How many times have you been subjected to the unpleasant odor emitted from someone around you? Medical research indicates that it is normal to have anywhere from 7 to 20 episodes of gas in a day.
+Would you believe that women produce more of the bad smelling stuff than men do, and that women are more likely to complain to their doctors about the smell of their flatulence? The smell comes from sulfur gasses, the most offensive of which is hydrogen sulfide; it smells like rotten eggs. Still, everybody does it, we just don’t know how embarrassed they are by it.
+
+
+
+Questions to Answer
+Are people without male siblings more embarrassed by their flatulence than people with one or more male siblings? Do people that come from households where flatulence was acceptable report less embarrassment than people that come from households where it was not acceptable? Are women or men more embarrassed by their flatus?
+
+
+Design Issues 
+Embarrassment scores were reported on 14 different measures and tallied as a total embarrassment score, then divided into seven categories, producing one number per category. Only the scores on the seven categories are reported here. The data in this research is self report data, and because the topic is sensitive some people may have been less than honest about their reported flatulence.
+
+
+Descriptions of Variables
+Variable	Description
+Gender	1 = male, 2 = female
+famaccp	Household acceptance of flatus
+1 to 7, 1=very acceptable and 7=very unacceptable
+brother	Number of brothers the participant has
+howlong	How long before farting in front of partner?
+1 = 1 year, .5= 6 months, .25=3 months, and smaller decimals represent portions of a year. Numbers larger than 1 indicate longer than 1 year.
+perday	Number per day
+Embarrassing
+Situations:
+The following variables were rated on this scale: 1=extremely embarrassed and 7= not really embarrassed
+mtgwork	Meeting at work
+talkprof	Talking to a professor
+romint	Romantic interest
+
+
+References
+Chapman, S. (2001 December 22). Hot Air? BMJ: British Medical Journal. 323(7327). Retrieved from, Health source database.
+
+Gases of the Gut. Harvard Health Letter. August 2002. 27(10).
+
+Hughes, L. (October 1999). 10 Tips on How to Fend Off Embarrassing Flatulence. Environmental Nutrition. 22(10). Retrieved from, Health source database.
+
+Lecture Theatre Etiquette. (June 2000). Student BMJ. Vol. 8. Retrieved from, Health source database.
+
+Manley, W. (October 1999). Noisome Rumblings. American Libraries Online. Retrieved from, http://www.search.epnet.com/direct.asp?an=2363574&db=hch&tg=AN
+
+Robb-Nicholson, C. (March 2003). By The Way Doctor. Harvard Women’s Health Watch. 10(7). Retrieved from, Academic Edition of Health Source database.
+
+
+Links
+Flatulence facts
+
+
+Exercises
+Plot a histogram of the variable "perday."
+Based on the histogram, do you think the mean or median of this variable is larger? Calculate the mean and median to see if you are right.
+What is the range for the of the variable "perday?"
+Is there are relationship between the number of male siblings and embarrassment in front of romantic interests? Create scatterplot, compute r, and perform a significance test on r.
+Create parallel box plots of family acceptance as a function of gender. What did you learn from the boxplots?
+Create a scatter plot of "perday" as a functioon of how acceptable flatulence is in the family. Add a linear regression line to the scatter plot. Do a significance test of the slope of the line.
+Create parallel box plots of "howlong" as a function gender. What can you say about the results?
+Compare men and women on the variable "perday." Create parallel box plots and compute the 95% confidence interval on the difference between means. Note any outliers.
+Create a stem and leaf plot of the variable "howlong."What can you say about the shape of the distribution?
+What is the 95% confidence interval of the mean time people wait before farting in front of a romantic partner.
+Predict embarrassment at work from embarrassment in front of a romantic partner. Find r and the regression equation.Test r and the slope of the regression equation for significance.
+Compute a 95% confidence interval on the number of brothers.

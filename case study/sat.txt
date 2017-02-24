@@ -1,0 +1,52 @@
+http://onlinestatbook.com/2/case_studies/sat.html
+
+Overview
+When deciding whether to admit an applicant, colleges take lots of factors, such as grades, sports, activities, leadership positions, awards, teacher recommendations, and test scores, into consideration. Using SAT scores as a basis of whether to admit a student or not has created some controversy. Among other things, people question whether the SATs are fair and whether they predict college performance.
+This study examines the SAT and GPA information of 105 students who graduated from a state university with a B.S. in computer science. Using the grades and test scores from high school, can you predict a student's college grades?
+
+
+
+Questions to Answer
+Can the math and verbal SAT scores be used to predict college GPA? Are the high school and college GPAs related? 
+
+Design Issues 
+The conclusions from this study should not be generalized to students of other majors. 
+
+Descriptions of Variables
+Variable	Description
+high_GPA	High school grade point average
+math_SAT	Math SAT score
+verb_SAT	Verbal SAT score
+comp_GPA	Computer science grade point average
+univ_GPA	Overall university grade point average
+
+
+References
+none
+
+
+Links
+Want a job? Hand over your SAT results! 
+Is the SAT a fair test?
+
+
+Exercises
+Draw a scatterplot comparing the students' high school GPAs to their overall university GPAs. What does the relationship appear to be? (4.1)
+What is the correlation between high school GPA and overall university GPA? (4.5)
+Find the regression line for predicting the overall university GPA from the high school GPA.
+What is the slope?
+What is the y-intercept?
+If someone had a 2.2 GPA in high school, what is the best estimate of his or her college GPA?
+If someone had a 4.0 GPA in high school, what is the best estimate of his or her college GPA?
+What is the mean math and verbal SAT score in this sample? (3.2)
+What are the standard deviations of the math and verbal SAT scores? (3.10)
+What would you expect the correlation between math and verbal SAT scores to be? Now calculate this correlation. (4.2, 4.5)
+What is the correlation between the students' overall university GPAs and their computer science GPAs? (4.5)
+Did the students have higher overall GPAs or higher GPAs in their computer science classes?
+Calculate each of these means. (3.2)
+Conduct a paired t test to see if this difference is statistically significant. (10.6)
+Find the regression line for predicting the overall university GPA from both the math SAT score and the verbal SAT score.
+Write out the regression equation to calculate GPA. Note the coefficients and the constant.
+What is the R square of the model?
+What is the p value for the coefficient of each SAT score? Are they both significant at the .05 level?
+What would you predict someone's overall university GPA to be if she got a 600 on the math and a 540 on the verbal portion of the SAT?
