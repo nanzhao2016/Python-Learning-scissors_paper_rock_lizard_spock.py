@@ -171,3 +171,107 @@ a distribution with a positive skew would have a longer whisker in the positive 
 A larger mean than median would also indicate a positive skew. Box plots are good at portraying extreme values and are especially good at showing differences between distributions. 
 However, many of the details of a distribution are not revealed in a box plot, and to examine these details one should create a histogram and/or a stem and leaf display.
 
+
+Median and Mean
+
+51) the point on which a distribution would balance, (2) the value whose average absolute deviation from all the other values is minimized, and (3) the value whose average squared difference from all the other values is minimized. 
+From the simulation in this chapter, you discovered (we hope) that the mean is the point on which a distribution would balance, the median is the value that minimizes the sum of absolute deviations, and the mean is the value that minimizes the sum of the squared deviations.
+
+
+Additional Measures of Central Tendency
+Trimean
+The trimean is a weighted average of the 25th percentile, the 50th percentile, and the 75th percentile. Letting P25 be the 25th percentile, P50 be the 50th and P75 be the 75th percentile, the formula for the trimean is:
+Trimean = (P25 + 2P50 + P75)/4
+
+Geometric Mean
+The geometric mean is computed by multiplying all the numbers together and then taking the nth root of the product.
+The geometric mean is an appropriate measure to use for averaging rates. For example, consider a stock portfolio that began with a value of $1,000 and had annual returns of 13%, 22%, 12%, -5%, and -13%. Table 4 shows the value after each of the five years.
+Table 4. Portfolio Returns
+Year	Return	Value
+1	13%	1,130
+2	22%	1,379
+3	12%	1,544
+4	-5%	1,467
+5	-13%	1,276
+The question is how to compute average annual rate of return. The answer is to compute the geometric mean of the returns. Instead of using the percents, each return is represented as a multiplier indicating how much higher the value is after the year. 
+This multiplier is 1.13 for a 13% return and 0.95 for a 5% loss. The multipliers for this example are 1.13, 1.22, 1.12, 0.95, and 0.87. 
+The geometric mean of these multipliers is 1.05. Therefore, the average annual rate of return is 5%. Table 5 shows how a portfolio gaining 5% a year would end up with the same value ($1,276) as shown in Table 4.
+
+Trimmed Mean
+To compute a trimmed mean, you remove some of the higher and lower scores and compute the mean of the remaining scores. A mean trimmed 10% is a mean computed with 10% of the scores trimmed off: 5% from the bottom and 5% from the top. 
+A mean trimmed 50% is computed by trimming the upper 25% of the scores and the lower 25% of the scores and computing the mean of the remaining scores. The trimmed mean is similar to the median which, in essence, trims the upper 49+% and the lower 49+% of the scores. 
+Therefore the trimmed mean is a hybrid of the mean and the median. To compute the mean trimmed 20% for the touchdown pass data shown in Table 1, you remove the lower 10% of the scores (6, 9, and 12) as well as the upper 10% of the scores (33, 33, and 37) and compute the mean of the remaining 25 scores. This mean is 20.16.
+
+
+Fortunately, there is no need to summarize a distribution with a single number. When the various measures differ, our opinion is that you should report the mean, median, and either the trimean or the mean trimmed 50%. 
+Sometimes it is worth reporting the mode as well. In the media, the median is usually reported to summarize the center of skewed distributions. 
+
+Measures of Variability
+
+What is Variability?
+Variability refers to how "spread out" a group of scores is.
+There are four frequently used measures of variability: the range, interquartile range, variance, and standard deviation.
+ 
+Range
+The range is the simplest measure of variability to calculate, and one you have probably encountered many times in your life. 
+The range is simply the highest score minus the lowest score.
+Let’s take a few examples. What is the range of the following group of numbers: 10, 2, 5, 6, 7, 3, 4? 
+Well, the highest number is 10, and the lowest number is 2, so 10 - 2 = 8. The range is 8.
+
+Interquartile Range
+The interquartile range (IQR) is the range of the middle 50% of the scores in a distribution. It is computed as follows:
+IQR = 75th percentile - 25th percentile
+Recall that in the discussion of box plots, the 75th percentile was called the upper hinge and the 25th percentile was called the lower hinge.
+Using this terminology, the interquartile range is referred to as the H-spread.
+ 
+A related measure of variability is called the semi-interquartile range. The semi-interquartile range is defined simply as the interquartile range divided by 2. 
+If a distribution is symmetric, the median plus or minus the semi-interquartile range contains half the scores in the distribution. 
+
+Variance
+Variability can also be defined in terms of how close the scores in the distribution are to the middle of the distribution. 
+Using the mean as the measure of the middle of the distribution, the variance is defined as the average squared difference of the scores from the mean.
+One thing that is important to notice is that the mean deviation from the mean is 0. This will always be the case. 
+
+where σ2 is the variance, μ is the mean, and N is the number of numbers. 
+If the variance in a sample is used to estimate the variance in a population, then the previous formula underestimates the variance and the following formula should be used:
+
+N-1 to calculate the variance
+where s2 is the estimate of the variance and M is the sample mean. 
+Note that M is the mean of a sample taken from a population with a mean of μ. Since, in practice, the variance is usually computed in a sample, this formula is most often used. 
+
+Standard Deviation
+The standard deviation is simply the square root of the variance.
+he standard deviation is an especially useful measure of variability when the distribution is normal or approximately normal (see Chapter on Normal Distributions) because the proportion of the distribution within a given number of standard deviations from the mean can be calculated. 
+For example, 68% of the distribution is within one standard deviation of the mean and approximately 95% of the distribution is within two standard deviations of the mean.
+Therefore, if you had a normal distribution with a mean of 50 and a standard deviation of 10, then 68% of the distribution would be between 50 - 10 = 40 and 50 +10 =60. Similarly, about 95% of the distribution would be between 50 - 2 x 10 = 30 and 50 + 2 x 10 = 70. 
+The symbol for the population standard deviation is σ; the symbol for an estimate computed in a sample is s. 
+
+Assume you repeatedly sampled 4 numbers from this population with a variance of 2 and, for each sample, estimated the variance using the average squared difference from the sample mean. 
+What would the mean of these variance estimates be?
+It would approach 1.5 as the number of samples increases to a very large number. 
+This is equal to (N-1)/N = .75 times the population variance of 2.
+
+Shapes of Distributions
+The relationship between skew and the relative size of the mean and median led the statistician Pearson to propose the following simple and convenient numerical index of skew:
+
+3(mean-median)/σ
+
+Just as there are several measures of central tendency, there is more than one measure of skew. 
+Although Pearson's measure is a good one, the following measure is more commonly used. It is sometimes referred to as the third moment about the mean.
+
+sigma[(X-µ)3/σ3]
+
+Kurtosis
+The following measure of kurtosis is similar to the definition of skew. 
+The value "3" is subtracted to define "no kurtosis" as the kurtosis of a normal distribution. Otherwise, a normal distribution would have a kurtosis of 3.
+
+sigma[(X-µ)4/σ4]-3
+
+Effects of Linear Transformations
+
+To sum up, if a variable X has a mean of μ, a standard deviation of σ, and a variance of σ2, then a new variable Y created using the linear transformation
+Y = bX + A
+
+will have a mean of bμ+A, a standard deviation of bσ, and a variance of b2σ2.
+
+
