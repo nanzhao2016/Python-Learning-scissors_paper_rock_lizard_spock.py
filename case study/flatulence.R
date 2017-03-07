@@ -40,3 +40,6 @@ ggplot(flatus, aes(x=perday)) +
 ggplot(flatus, aes(x = Gender, y = howlong, fill=Gender)) +
   geom_boxplot() +
   stat_summary(fun.y=mean, colour="darkred", geom="point", shape=3, size=3)
+
+mean(flatus$perday)
+median(flatus$perday)

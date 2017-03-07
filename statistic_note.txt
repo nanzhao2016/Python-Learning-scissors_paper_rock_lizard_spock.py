@@ -172,6 +172,7 @@ A larger mean than median would also indicate a positive skew. Box plots are goo
 However, many of the details of a distribution are not revealed in a box plot, and to examine these details one should create a histogram and/or a stem and leaf display.
 
 
+Part3. Summarizing Distributions
 Median and Mean
 
 51) the point on which a distribution would balance, (2) the value whose average absolute deviation from all the other values is minimized, and (3) the value whose average squared difference from all the other values is minimized. 
@@ -274,4 +275,32 @@ Y = bX + A
 
 will have a mean of bμ+A, a standard deviation of bσ, and a variance of b2σ2.
 
+In R, calculate trimmed mean: mean(data, trim=percentage)
 
+Notice that the expression for the difference is the same as the formula for the sum.
+
+(σ2)diff = (σ2)M+(σ2)F
+
+
+More generally, the variance sum law can be written as follows:
+
+(σ2)X+/-Y = (σ2)X+(σ2)Y
+
+which is read: The variance of X plus or minus Y is equal to the variance of X plus the variance of Y.
+These formulas for the sum and difference of variables given above only apply when the variables are independent. 
+
+
+Part4. Describing Bivariate Data
+
+Introduction to Bivariate Data
+
+Bivariate data is data for which there are two variables for each observation. As an example, the following bivariate data show the ages of husbands and wives of 10 married couples.
+ 
+Husband	36	72	37	36	51	50	47	50	37	41
+Wife			35	67	33	35	50	46	47	42	36	41
+
+A scatter plot of two variables shows the values of one variable on the Y axis and the values of the other variable on the X axis. 
+Scatter plots are well suited for revealing the relationship between two variables.
+parabola
+A statistical measure of the strength of the relationship between two quantitative variables that takes these factors into account is the subject of the section "Values of Pearson's Correlation."
+ 

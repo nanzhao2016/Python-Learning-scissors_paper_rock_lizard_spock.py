@@ -14,6 +14,21 @@ data <- {data%>%
       mutate(Gender = as.factor(Gender)) %>% 
       mutate(Sports = as.factor(Sports))}
 
+bin_Rice <- function(df, colName){
+  
+  numberInterval <- round(nrow(df)^(1/3)*2)
+  bin_width <- round((max(df[colName]) - min(df[colName]))/numberInterval)
+  return(bin_width)
+}
+
+bin_Sturge <- function(df, colName){
+  numberInterval <- round(1 + log2(nrow(df)))
+  bin_width <- round((max(df[colName]) - min(df[colName]))/numberInterval)
+  return(bin_width)
+}
+
+
+
 # histogram with frequency
 ggplot(data, aes(x=Anger.Out)) +
   geom_histogram(binwidth = 2)
@@ -66,5 +81,13 @@ ggplot(data, aes(x=as.character(Sports), y=Anger_Expression, fill=Sports)) +
                shape=3, size=3)+
   geom_text(data=means, aes(y=Anger_Expression +0.08, label=Anger_Expression))
 
-  
 
+range(data$Anger.In)
+quantile(data$Anger.In)  
+IQR(data$Anger.In)
+mean(data$Control.Out)
+mean(filter(data, Sports=="1")$Control.Out)
+mean(filter(data, Sports=="2")$Control.Out)
+
+var(filter(data, Sports=="1")$Control.In)
+var(filter(data, Sports=="2")$Control.In)

@@ -1,0 +1,46 @@
+http://onlinestatbook.com/2/case_studies/stroop.html
+
+Stroop Interference
+
+Overview
+Naming the ink color of color words can be difficult. For example, if asked to name the color of the word "blue" is difficult because the answer (red) conflicts with the word "blue." This interference is called "Stroop Interference" after the researcher who first discovered the phenomenon.
+
+This case study is a classroom demonstration. Students in an introductory statistics class were each given three tasks. In the "words" task, students read the names of 60 color words written in black ink; in the "color" task, students named the colors of 60 rectangles; in the "interference" task, students named the ink color of 60 conflicting color words. The times to read the stimuli were recorded. There were 31 female and 16 male students.
+
+
+Questions to Answer
+Is naming conflicting color names faster or slower than naming color rectangles? Which is faster, naming color rectangles or reading color names? Are there gender differences? 
+
+Design Issues 
+This was not a well-controlled experiment since it was just a classroom demonstration. The order in which the students performed the tasks may not have been counterbalanced or randomized. 
+
+Descriptions of Variables
+Variable
+Description
+Gender	1 for female, 2 for male
+Words	Time in seconds to read 60 color words
+Colors	Time in seconds to name 60 color rectangles
+Interfer	Time in seconds to name colors of conflicting words
+
+
+References
+Stroop, J.R. (1935). Studies of interference in serial verbal reactions. Journal of Experimental Psychology, 28, 643-662.
+
+
+Links
+Full text of the above reference.
+
+
+Exercises
+Compute the mean for words.
+Compute the mean and standard deviation for "colors."
+Create parallel box plots for males and females for "colors."
+Create back-to-back stem and leaf plots for "colors" as a function of gender (You may have to do this by hand).
+Create a stem and leaf plot for "interference."
+Create a scatterplot showing "color" on the Y-axis and "words" on the X-axis.
+Compute the correlation between "color" and "words."
+Compute the correlation between "color" and "words" using only the 23 fastest color-namers.
+Do a t test comparing males and females on "color."
+Compute the 95% confidence interval for "interference."
+Do a t-test of the difference between "colors" and "interference."
+Do a 2 x 3 ANOVA with gender as the between subject variable and task (Colors, Words, Interference) as within-subject variables.
