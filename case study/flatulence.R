@@ -43,3 +43,9 @@ ggplot(flatus, aes(x = Gender, y = howlong, fill=Gender)) +
 
 mean(flatus$perday)
 median(flatus$perday)
+
+ggplot(filter(flatus, Gender=="1"), aes(x=perday, y=as.numeric(romint))) +
+  geom_point()
+
+cor(filter(flatus, Gender=="1")$perday, as.numeric(filter(flatus, Gender=="1")$romint))
+         

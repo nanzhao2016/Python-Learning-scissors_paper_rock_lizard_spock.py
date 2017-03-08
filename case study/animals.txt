@@ -1,0 +1,53 @@
+http://onlinestatbook.com/2/case_studies/animal_research.html
+
+Gender Difference in Attitudes Toward the 
+Use of Animals in Research
+
+Overview
+The use of animals in research is a controversial and emotionally charged issue. Personal feelings regarding the use of animals in research vary widely. While many believe that the use of animals in research has been and continues to be essential, others want the practice stopped by cutting off funding or the passing of legislative restrictions. Research on human attitudes toward the use of animals in research has consistently shown systematic differences of opinion with gender differences among the largest. 
+
+In this study, a convenience sample of 34 University of Houston - Downtown students completed a simple survey that asked their gender and how much they agreed with the following two statements: "The use of animals in research is wrong," and "The use of animals in research is necessary". They rated their agreement with each of these statements on a 7-point scale from strongly disagree (1) to strongly agree (7).
+
+
+
+Questions to Answer
+Is there a gender difference with respect to the belief that animal research is wrong? Is there a gender difference with respect to the belief that animal research is necessary? 
+
+Design Issues 
+This is self-report data. It is possible that the willingness to admit to thinking animal research is wrong or necessary is what differs by gender, not how the participants actually feel. 
+
+Descriptions of Variables
+Variable	Description
+Gender	1 = female, 2 = male
+Wrong	high scores indicate that the participant believes that animal research is wrong
+Necessary	high scores indicate that the participant believes that animal research is necessary
+
+
+References
+Eldridge, J.J. & Gluck, J.P. (1996) Gender differences in attitudes toward animal research. Ethics & Behavior, 6(3), 239-256.
+
+Nickell, D & Herzog, H.A. (1996). Ethical ideology and moral persuasion: Personal moral philosophy, gender, and judgements of pro- and anti-animal research propaganda. Society & Animals, 4(1), 53-64.
+
+Pifer, L. K. (1996). Exploring the gender gap in young adults’ attitudes about animal research. Society & Animals, 4(1), 37-52.
+
+Wuensch, K. L. & Poteat, G.M. (1998). Evaluating the morality of animal research: Effects of ethical ideology, gender, and purpose. Journal of Social Behavior & Personality, 13(1), 139-151.
+
+ 
+
+
+Links
+American Association for the Advancement of Science
+
+
+Exercises
+Create side-by-side box plots for belief that animal research is wrong by gender. Which gender looks like it is more likely to believe that animal research is wrong? 
+Using the box plot computed in question 1, determine which gender has an outlier.
+What percentage of the women studied in this sample strongly agreed (gave a rating of 7) that using animals for research is wrong?
+What is the mean difference in the ratings for the two genders in how much they think that animal research is wrong?
+Conduct an independent samples t-test comparing males to females on belief that animal research is wrong.
+Create side-by-side box plots for belief that animal research is necessary by gender. Which gender looks like it is more likely to believe that animal research is necessary? 
+What percentage of men disagreed on some level (gave ratings of 1, 2, or 3) that animal research was necessary?
+Conduct an independent samples t-test comparing males to females on belief that animal research is necessary.
+Based on the t-test you conducted for #8, are you able to reject the null hypothesis if alpha = 0.05? What about if alpha = 0.1?
+Is there any evidence that the t-test assumption of homogeneity of variance is violated for either of the two t-tests conducted in these exercises?
+What is the overall correlation between the belief that animal research is wrong and belief that animal research is necessary?

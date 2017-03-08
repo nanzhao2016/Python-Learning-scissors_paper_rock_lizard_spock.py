@@ -303,4 +303,51 @@ A scatter plot of two variables shows the values of one variable on the Y axis a
 Scatter plots are well suited for revealing the relationship between two variables.
 parabola
 A statistical measure of the strength of the relationship between two quantitative variables that takes these factors into account is the subject of the section "Values of Pearson's Correlation."
+
+
+Values of the Pearson Correlation
+The Pearson product-moment correlation coefficient is a measure of the strength of the linear relationship between two variables. 
+It is referred to as Pearson's correlation or simply as the correlation coefficient.
+
+The symbol for Pearson's correlation is "ρ" when it is measured in the population and "r" when it is measured in a sample. 
+Pearson's r can range from -1 to 1. 
+An r of -1 indicates a perfect negative linear relationship between variables, an r of 0 indicates no linear relationship between variables, and an r of 1 indicates a perfect positive linear relationship between variables.
+
+Properties of Pearson's r
+Pearson's correlation is symmetric in the sense that the correlation of X with Y is the same as the correlation of Y with X. 
+A critical property of Pearson's r is that it is unaffected by linear transformations.
  
+This means that multiplying a variable by a constant and/or adding a constant does not change the correlation of that variable with other variables. 
+
+Computing Pearson's r
+We begin by computing the mean for X and subtracting this mean from all values of X. The new variable is called "x". 
+The variable "y" is computed similarly. The variables x and y are said to be deviation scores because each score is a deviation from the mean.
+
+Before proceeding with the calculations, let's consider why the sum of the xy column reveals the relationship between X and Y. 
+If there were no relationship between X and Y, then positive values of x would be just as likely to be paired with negative values of y as with positive values. 
+This would make negative values of xy as likely as positive values and the sum would be small.
+
+Pearson's correlation is computed by dividing the sum of the xy column (Σxy) by the square root of the product of the sum of the x2 column (Σx2) and the sum of the y2 column (Σy2). The resulting formula is:
+
+r= Σxy/ sqrt((Σx2)*(Σy2))
+
+An alternative computational formula that avoids the step of computing deviation scores is:
+
+r= (ΣXY - ΣXY/N) / sqrt(ΣX2 - (ΣX)2/N)*sqrt(ΣY2 - (ΣY)2/N)
+
+
+Variance Sum Law II
+Recall that when the variables X and Y are independent, the variance of the sum or difference between X and Y can be written as follows:
+
+(σ2)X+/-Y = (σ2)X+(σ2)Y
+==> var(X+/-Y) = var(X) + var(Y) 
+
+which is read: "The variance of X plus or minus Y is equal to the variance of X plus the variance of Y."
+When X and Y are correlated, the following formula should be used:
+
+(σ2)X+/-Y = (σ2)X+(σ2)Y +/- 2ρσXσY
+
+where ρ is the correlation between X and Y in the population. 
+
+Pearson's correlation measures the strength of the linear relationship between two variables. 
+The relationship here is not linear. As age increases, hours slept decreases rapidly at first but then levels off.

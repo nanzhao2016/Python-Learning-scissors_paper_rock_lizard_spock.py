@@ -42,3 +42,9 @@ ggplot(adhd.melt, aes(x = ID, y=value, group=variable, colour=as.factor(variable
 mean(adhd$D0)
 sd(adhd$D0)
 IQR(adhd$D0)
+
+
+#correlation
+cor(adhd$D0, adhd$D60)
+ggplot(adhd, aes(x = D0, y=D60))+
+  geom_point()

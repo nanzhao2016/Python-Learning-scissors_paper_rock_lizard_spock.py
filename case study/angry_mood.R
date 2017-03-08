@@ -91,3 +91,15 @@ mean(filter(data, Sports=="2")$Control.Out)
 
 var(filter(data, Sports=="1")$Control.In)
 var(filter(data, Sports=="2")$Control.In)
+
+
+#Calculate Pearson's correlation
+df <- data.frame(X= c(10,10,9,6,12,8,7,9,11,10,9,9,11,10,13,10,9,15,11,9,7,11,10,10,10), 
+                 Y= c(11,7,8,8,11,9,7,10,12,8,11,9,12,7,13,11,12,12,11,11,7,10,8,9,9))
+library(Hmisc)
+rcorr(as.matrix(df), type="pearson")
+cor(df$X, df$Y)
+
+#Pearson's correlation
+cor(data$Control.In, data$Control.Out)
+cor(data$Anger.Out, data$Control.Out)

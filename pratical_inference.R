@@ -30,7 +30,6 @@ ggplot(data.frame(sample_means), aes(sample_means)) +
   geom_histogram() 
 
 
-
 data2 <- vector(mode="numeric", length = 0)
 for (i in 1:200) {
   data2 <- c(data2, sample(3000:5000, 100, replace = T))
@@ -51,3 +50,20 @@ ggplot(data.frame(sample_means2), aes(sample_means2)) +
 numbers <- c(10.77, 10.55, 10.80, 9.34, 14.37, 7.40, 8.23, 8.70, 14.62, 12.10, 8.51, 8.70, 13.30, 9.04, 10.26, 6.54, 10.86, 9.02, 8.92, 9.97, 12.66, 
   9.68, 8.08,10.03, 8.25, 10.91, 10.90, 7.40, 12.62, 10.50, 12.52, 12.42, 10.93, 8.14, 10.76, 9.61, 11.44, 6.79, 5.94, 11.08, 6.81, 11.69, 8.43)
 numbers.sorted <- sort(numbers)
+
+
+
+numPeople <- 10
+sex <- sample(c("male", "female"), numPeople, replace = T)
+age <- sample(14:102, numPeople, replace = T)
+income <- sample(20:150, numPeople, replace = T)
+minor <- age < 18 
+class(minor)
+mode(minor)
+minor
+population <- data.frame(sex=sex, age=age, income=income, minor=minor)
+View(population)
+population[order(population$age), ]
+population[order(population$income), ]
+
+population[order(population$age), c(1,2)]
