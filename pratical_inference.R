@@ -67,3 +67,43 @@ population[order(population$age), ]
 population[order(population$income), ]
 
 population[order(population$age), c(1,2)]
+
+install.packages("combinat")
+require(combinat)
+permn(3)
+combn(3,2)
+length(permn(3))
+dim(combn(3,2))[2]
+
+perm = function(n, x) {
+  return(factorial(n) / factorial(n-x))
+}
+
+comb = function(n, x) {
+  return(factorial(n) / (factorial(x) * factorial(n-x)))
+}
+
+perm(3, 2)
+comb(3, 2)
+
+binom = function (n, x, p) {
+  return(comb(n, x) * p**x * (1-p)**(n-x))
+}
+
+binomCumu = function(n,x,p) {
+  prob = 0
+  for(i in 0: (x-1)){
+    prob = prob + binom(n, i, p)
+  }
+  return(1-prob)
+}
+
+1-binomCumu(20, 4, 0.3)
+
+poiss = function(µ, x) {
+  
+  return(exp(-µ)*µ**(x)/factorial(x))
+}
+
+poiss(8,11)
+poiss(21, 12)
