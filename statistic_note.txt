@@ -567,3 +567,132 @@ Bayes' theorem shown below allows you to calculate P(D|T), the probability that 
 
 P(D|T) = P(T|D)P(D)/(P(T|D)P(D) + P(T|D')P(D'))
 P(D|T)P(T) = P(T|D)P(D)
+
+
+
+Part6. Research Design
+
+Scientific Method
+Scientific theories must be potentially disconfirmable. If a theory can accommodate all possible results then it is not a scientific theory. 
+Therefore, a scientific theory should lead to testable hypotheses. If a hypothesis is disconfirmed, then the theory from which the hypothesis was deduced is incorrect. 
+
+Scientific theories must be potentially disconfirmable. If a theory can accommodate all possible results then it is not a scientific theory.
+Therefore, a scientific theory should lead to testable hypotheses. If a hypothesis is disconfirmed, then the theory from which the hypothesis was deduced is incorrect.
+
+If a hypothesis derived from a theory is confirmed then the theory has survived a test and it becomes more useful and better thought of by the researchers in the field.
+A theory is not confirmed when correct hypotheses are derived from it.
+
+A key difference between scientific explanations and faith-based explanations is simply that faith-based explanations are based on faith and do not need to be testable. 
+This does not mean that an explanation that cannot be tested is incorrect in some cosmic sense. It just means that it is not a scientific explanation.
+
+An important attribute of a good scientific theory is that it is parsimonious. 
+That is, that it is simple in the sense that it uses relatively few constructs to explain many empirical findings.
+A theory that it so complex that it has as many assumptions as it has predictions is not very valuable.
+
+Although strictly speaking, disconfirming an hypothesis deduced from a theory disconfirms the theory, it rarely leads to the abandonment of the theory. 
+Instead, the theory will probably be modified to accommodate the inconsistent finding. 
+If the theory has to be modified over and over to accommodate new findings, the theory generally becomes less and less parsimonious. 
+This can lead to discontent with the theory and the search for a new theory. 
+If a new theory is developed that can explain the same facts in a more parsimonious way, then the new theory will eventually supercede the old theory.
+
+Simpler explanations are preferred over complex explanations so theories should be parsimonious.
+
+Measurement
+
+Reliability
+The notion of reliability revolves around whether you would get at least approximately the same result if you measure something twice with the same measurement instrument. 
+A common way to define reliability is the correlation between parallel forms of a test. 
+Letting "test" represent a parallel form of the test, the symbol rtest,test is used to denote the reliability of the test.
+
+True Scores and Error
+The mean response time over the 1,000 trials can be thought of as the person's "true" score, or at least a very good approximation of it. 
+Theoretically, the true score is the mean that would be approached as the number of trials increases indefinitely.
+
+Every test score can be thought of as the sum of two independent components, the true score and the error score. This can be written as:
+Ytest = Ytrue + Yerror
+The following expression follows directly from the Variance Sum Law:
+Var(test) = Var(true) + Var(error)
+
+Reliability in Terms of True Scores and Error
+It can be shown that the reliability of a test, rtest,test, is the ratio of true-score variance to test-score variance. This can be written as:
+
+rtest, test = Var(true)/Var(test) = Var(true)/[Var(true) + Var(error)]
+
+If a test were given in two populations for which the variance of the true scores differed, the reliability of the test would be higher in the population with the higher true-score variance. 
+Therefore, reliability is not a property of a test per se but the reliability of a test in a given population.
+
+Assessing Error of Measurement
+The reliability of a test does not show directly how close the test scores are to the true scores. 
+That is, it does not reveal how much a person's test score would vary across parallel forms of test.
+
+By definition, the mean over a large number of parallel tests would be the true score. 
+The standard deviation of a person's test scores would indicate how much the test scores vary from the true score. 
+This standard deviation is called the standard error of measurement. 
+
+The following formula is used to estimate the standard error of measurement.
+formula for standard error of measurement:
+ 
+Smeasurement = Stest*sqrt(1-rtest,tes)
+
+where Smeasurement is the standard error of measurement, Stest is the standard deviation of the test scores, and rtest,test is the reliability of the test.
+Taking the extremes, if the reliability is 0 then the standard error of measurement is equal to the standard deviation of the test; if the reliability is perfect (1.0) then the standard error of measurement is 0.
+ 
+Increasing Reliability
+The higher the reliability of the test of spatial ability, the higher the correlations will be. 
+Similarly, if an experimenter seeks to determine whether a particular exercise regiment decreases blood pressure, the higher the reliability of the measure of blood pressure, the more sensitive the experiment. 
+
+Two basic ways of increasing reliability are 
+(1) to improve the quality of the items and 
+(2) to increase the number of items.
+
+Increasing the number of items increases reliability in the manner shown by the following formula:
+
+rnew,new = k*rtest,test/(1+(k-1)rtest,test)
+
+where k is the factor by which the test length is increased, 
+rnew,new is the reliability of the new longer test, and rtest,test is the current reliability. 
+
+For example, if a test with 50 items has a reliability of .70 then the reliability of a test that is 1.5 times longer (75 items) would be calculated as follows
+rnew,new = 1.5*.7/(1+(1.5-1)*.7) = .78
+
+It is important to note that this formula assumes the new items have the same characteristics as the old items. 
+Obviously adding poor items would not increase the reliability as expected and might even decrease the reliability.
+
+Validity
+The validity of a test refers to whether the test measures what it is supposed to measure.
+The three most common types of validity are face validity, empirical validity, and construct validity. 
+
+Face Validity
+A test's face validity refers to whether the test appears to measure what it is supposed to measure.
+
+Predictive Validity
+Predictive validity (sometimes called empirical validity) refers to a test's ability to predict the relevant behavior.
+
+
+Construct Validity
+Construct validity is more difficult to define. In general, a test has construct validity if its pattern of correlations with other measures is in line with the construct it is purporting to measure. 
+Construct validity can be established by showing a test has both convergent and divergent validity. 
+A test has convergent validity if it correlates with other tests that are also measures of the construct in question. 
+Divergent validity is established by showing the test does not correlate highly with tests of other constructs. 
+Of course, some constructs may overlap so the establishment of convergent and divergent validity can be complex.
+
+To take an example, suppose one wished to establish the construct validity of a new test of spatial ability. 
+Convergent and divergent validity could be established by showing the test correlates relatively highly with other measures of spatial ability but less highly with tests of verbal ability or social intelligence.
+
+Reliability and Predictive Validity
+The reliability of a test limits the size of the correlation between the test and other measures. 
+In general, the correlation of a test with another measure will be lower than the test's reliability. 
+After all, how could a test correlate with something else as high as it correlates with a parallel form of itself? 
+Theoretically it is possible for a test to correlate as high as the square root of the reliability with another measure. 
+For example, if a test has a reliability of 0.81 then it could correlate as high as 0.90 with another measure. 
+This could happen if the other measure were a perfectly reliable test of the same construct as the test in question. 
+In practice, this is very unlikely.
+
+A true score 
+
+ (a) is a measurement without error.
+
+ (b) is approached as the number of items in a test increases.
+ 
+If a test has a reliability of .64 then the theoretical upper limit on its predictive validity is 0.8 reason:
+The upper limit is the square root of the reliability. It is rare but theoretically possible for the validity to be higher than the reliability.
