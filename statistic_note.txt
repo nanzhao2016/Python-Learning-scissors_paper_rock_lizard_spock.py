@@ -696,3 +696,208 @@ A true score
  
 If a test has a reliability of .64 then the theoretical upper limit on its predictive validity is 0.8 reason:
 The upper limit is the square root of the reliability. It is rare but theoretically possible for the validity to be higher than the reliability.
+
+
+Part7. Normal Distribution
+
+The normal distribution is the most important and most widely used distribution in statistics. 
+It is sometimes called the "bell curve," although the tonal qualities of such a bell would be less than pleasing. It is also called the "Gaussian curve" after the mathematician Karl Friedrich Gauss.
+
+1. Normal distributions are symmetric around their mean.
+2. The mean, median, and mode of a normal distribution are equal.
+3. The area under the normal curve is equal to 1.0.
+4. Normal distributions are denser in the center and less dense in the tails.
+5. Normal distributions are defined by two parameters, the mean (μ) and the standard deviation (σ).
+6. 68% of the area of a normal distribution is within one standard deviation of the mean.
+7. Approximately 95% of the area of a normal distribution is within two standard deviations of the mean.
+ 
+
+The normal distributions shown in Figures 1 and 2 are specific examples of the general rule that 68% of the area of any normal distribution is within one standard deviation of the mean.
+The shaded area contains 95% of the area and extends from 55.4 to 94.6. For all normal distributions, 95% of the area is within 1.96 standard deviations of the mean. 
+68% of the area is within 1 standard deviation of the mean
+
+The probability of any one specific point is 0. 
+The problem is that the binomial distribution is a discrete probability distribution, whereas the normal distribution is a continuous distribution.
+
+The normal approximation to the binomial is most accurate for which of the following probabilities?
+It is most accurate for p=.5 because that makes the binomial distribution symmetric and closer to a normal distribution.
+
+The normal approximation to the binomial is most accurate for which of the following sample sizes?
+The binomial distribution approaches a normal distribution as the sample size increases. Therefore the approximation is best when the sample size is highest.
+
+Because the normal distribution is continuous, the probability of any one specific point is 0. 
+The solution is to round off and consider any value from 5.5 to 6.5 to represent an outcome of 6 tails. 
+Using this approach, we figure out the area under a normal curve from 5.5 to 6.5.
+
+Risk analyses often are based on the assumption of normal distributions. 
+Critics have said that extreme events in reality are more frequent than would be expected assuming normality. 
+The assumption has even been called a "Great Intellectual Fraud."
+
+A recent article discussing how to protect investments against extreme events defined "tail risk" 
+as "A tail risk, or extreme shock to financial markets, is technically defined as an investment that moves more than three standard deviations from the mean of a normal distribution of investment returns."
+
+Tail risk can be evaluated by assuming a normal distribution and computing the probability of such an event. Is that how "tail risk" should be evaluated? 
+
+Events more than three standard deviations from the mean are very rare for normal distributions. 
+However, they are not as rare for other distributions such as highly-skewed distributions. 
+If the normal distribution is used to assess the probability of tail events defined this way, then the "tail risk" will be underestimated.
+
+Part. 9 Sampling Distribution
+
+A sampling distribution can be thought of as a relative frequency distribution with a very large number of samples. 
+More precisely, a relative frequency distribution approaches the sampling distribution as the number of samples approaches infinity. 
+When a variable is discrete, the heights of the distribution are probabilities. 
+When a variable is continuous, the class intervals have no width and and the heights of the distribution are probability densities.
+
+The distribution shown in Figure 2 is called the sampling distribution of the mean. 
+Specifically, it is the sampling distribution of the mean for a sample size of 2 (N = 2)
+
+Notice that all the means are either 1.0, 1.5, 2.0, 2.5, or 3.0. 
+The frequencies of these means are shown in Table 2. 
+The relative frequencies are equal to the frequencies divided by nine because there are nine possible outcomes.
+Mean	Frequency	Relative Frequency
+1.0	1	0.111
+1.5	2	0.222
+2.0	3	0.333
+2.5	2	0.222
+3.0	1	0.111
+
+
+When we have a truly continuous distribution, it is not only impractical but actually impossible to enumerate all possible outcomes. 
+Moreover, in continuous distributions, the probability of obtaining any single value is zero. 
+Therefore, as discussed in the section "Introduction to Distributions," these values are called probability densities rather than probabilities.
+
+The most common measure of how much sample means differ from each other is the standard deviation of the sampling distribution of the mean. 
+This standard deviation is called the standard error of the mean. 
+If all the sample means were very close to the population mean, then the standard error of the mean would be small. 
+On the other hand, if the sample means varied considerably, then the standard error of the mean would be large.
+
+Keep in mind that all statistics have sampling distributions, not just the mean. 
+In later sections we will be discussing the sampling distribution of the variance, 
+the sampling distribution of the difference between means, 
+and the sampling distribution of Pearson's correlation, among others.
+
+The sampling distribution is a theoretical distribution that is approached as the number of samples approaches infinity.
+Every statis has its own sampling distribution.
+There is a different sampling distribution for different parent population and for different sample sizes.
+
+Sample size is the number of original data points included in a single sample.
+Because the student performs the sampling process 500 times, the number of samples included in the estimation of the sampling distribution is 500.
+
+The mean of the sampling distribution of the range is less than the range in the population. 
+The range in the population is the largest possible range for a sample. The mean range in a sample will be less than this.
+
+Sample size affects the spread (variability) of the distriubtion of sample means. 
+The smaller the sample size, the more spread out the distribution. 
+Therefore, the mean of a small sample size is more likely to deviate greatly from the mean value of 16. In this situation, much more likely.
+
+Central Limit Theorem
+Although counter-intuitive, the sampling distribution of the mean approaches a normal distribution as sample size increases. 
+This is an important part of the "Central Limit Theorem."
+
+The variance of the sampling distribution of the mean is proportional to the sample size. 
+Therefore, the variance will be one fifth as large and will equal 5.
+
+Mean
+The mean of the sampling distribution of the mean is the mean of the population from which the scores were sampled. 
+Therefore, if a population has a mean μ, then the mean of the sampling distribution of the mean is also μ. 
+The symbol μM is used to refer to the mean of the sampling distribution of the mean. 
+μM = μ
+
+Variance
+The variance of the sampling distribution of the mean is computed as follows:
+σ2M = σ2/N
+
+That is, the variance of the sampling distribution of the mean is the population variance divided by N, the sample size (the number of scores used to compute a mean).
+Thus, the larger the sample size, the smaller the variance of the sampling distribution of the mean.
+
+Central Limit Theorem
+The central limit theorem states that:
+Given a population with a finite mean μ and a finite non-zero variance σ2, 
+the sampling distribution of the mean approaches a normal distribution with a mean of μ and a variance of σ2/N as N, the sample size, increases.
+
+According to the central limit theorem, regardless of the shape of the parent population, the sampling distribution of the mean approaches a normal distribution as N increases. 
+
+
+Sampling Distribution of Difference Between Means
+The sampling distribution of the difference between means can be thought of as the distribution that would result if we repeated the following three steps over and over again: 
+(1) sample n1 scores from Population 1 and n2 scores from Population 2, 
+(2) compute the means of the two samples (M1 and M2), 
+(3) compute the difference between means, M1 - M2. 
+The distribution of the differences between means is the sampling distribution of the difference between means.
+
+As you might expect, the mean of the sampling distribution of the difference between means is:
+μM1-M2 = μM1-µM2
+
+which says that the mean of the distribution of differences between sample means is equal to the difference between population means. 
+The formula for the variance of the sampling distribution of the difference between means as:
+σ2M1-M2 = σ21/N1 + σ22/N2
+
+σM1- σM2 = sqrt(σ21/N1 + σ22/N2)
+
+The mean height of 15-year-old boys is 175 cm and the variance is 64. 
+For girls, the mean is 165 and the variance is 64. 
+If 8 boys and 8 girls were sampled, what is the probability that the mean height of the sample of boys would be at least 6 cm higher than the mean height of the sample of girls?
+mean = 175-165 = 10
+sd = sqrt(2*64/8)=4
+Z = (6-10)/4 = -1
+P(x>=-1) = 1-P(x<-1) 
+in python :
+import scipy.stats
+1- scipy.stats.norm(0,1).cdf(-1) = 0.841
+or 1- scipy.stats.norm(10,4).cdf(6) = 0.841
+
+Sampling Distribution of Pearson's r
+If 12 students were sampled randomly, the sample correlation, r, would not be exactly equal to 0.60. 
+Naturally different samples of 12 students would yield different values of r. 
+The distribution of values of r after repeated samples of 12 students is the sampling distribution of r.
+
+You can see that the sampling distribution is not symmetric: it is negatively skewed. 
+The reason for the skew is that r cannot take on values greater than 1.0 and therefore the distribution cannot extend as far in the positive direction as it can in the negative direction. 
+The greater the value of ρ, the more pronounced the skew.
+
+You might think that all you would need to know to compute this probability is the mean and standard error of the sampling distribution of r. 
+However, since the sampling distribution is not normal, you would still not be able to solve the problem. 
+Fortunately, the statistician Fisher developed a way to transform r to a variable that is normally distributed with a known standard error. 
+The variable is called z' and the formula for the transformation is given below.
+
+z' = 0.5*ln[(1+r)/(1-r)]
+
+The details of the formula are not important here since normally you will use either a table or calculator to do the transformation.
+What is important is that z' is normally distributed and has a standard error of
+σ = 1/sqrt(N-3)
+where N is the number of pairs of scores.
+
+What is the shape of the sampling distribution of r? 
+Unless r = 0, the sampling distribution is skewed. 
+The reason for the skew is that r cannot take on values greater than 1.0 or less than -1.0, 
+and therefore the distribution cannot extend as far in one direction as it can in the other. 
+
+Although you could plug all of these values into the r to z' calculator, you don't need to do that. 
+You know the r with the biggest absolute value has the most skewed sampling distribution, so it is the most different from its corresponding z'.
+
+Sampling Distribution of p
+Assume that in an election race between Candidate A and Candidate B, 0.60 of the voters prefer Candidate A. 
+If a random sample of 10 voters were polled, it is unlikely that exactly 60% of them (6) would prefer Candidate A. 
+By chance the proportion in the sample preferring Candidate A could easily be a little lower than 0.60 or a little higher than 0.60. 
+The sampling distribution of p is the distribution that would result if you repeatedly sampled 10 voters and determined the proportion (p) that favored Candidate A.
+
+The distribution of p is closely related to the binomial distribution. 
+The binomial distribution is the distribution of the total number of successes (favoring Candidate A, for example) whereas the distribution of p is the distribution of the mean number of successes. 
+The mean, of course, is the total divided by the sample size, N. 
+Therefore, the sampling distribution of p and the binomial distribution differ in that p is the mean of the scores (0.70) and the binomial distribution is dealing with the total number of successes (7).
+The binomial distribution has a mean of
+μ = Nπ
+Dividing by N to adjust for the fact that the sampling distribution of p is dealing with means instead of totals, we find that the mean of the sampling distribution of p is:
+μp = π
+
+The standard deviation of the binomial distribution is:
+sqrt(Nπ(1-π))
+
+Dividing by N because p is a mean not a total, we find the standard error of p:
+1/N *(sqrt(Nπ(1-π))) = sqrt(π(1-π)/N)
+
+The sampling distribution of p is a discrete rather than a continuous distribution.
+The sampling distribution of p is approximately normally distributed if N is fairly large and π is not close to 0 or 1. 
+A rule of thumb is that the approximation is good if both Nπ and N(1 - π) are greater than 10. 
+ 
