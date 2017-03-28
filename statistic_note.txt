@@ -922,3 +922,74 @@ Some estimates are based on more information than others.
 For example, an estimate of the variance based on a sample size of 100 is based on more information than an estimate of the variance based on a sample size of 5.
 The degrees of freedom (df) of an estimate is the number of independent pieces of information on which the estimate is based.
  
+As you are probably thinking, it is pretty rare that we know the population mean when we are estimating the variance. 
+Instead, we have to first estimate the population mean (μ) with the sample mean (M). 
+Returning to our problem of estimating the variance in Martian heights, let's assume we do not know the population mean and therefore we have to estimate it from the sample. 
+We have sampled two Martians and found that their heights are 8 and 5. Therefore M, our estimate of the population mean, is
+M = (8+5)/2 = 6.5.
+
+We can now compute two estimates of variance:
+Estimate 1 = (8-6.5)2 = 2.25
+Estimate 2 = (5-6.5)2 = 2.25
+
+Now for the key question: Are these two estimates independent? The answer is no because each height contributed to the calculation of M.
+The important point is that the two estimates are not independent and therefore we do not have two degrees of freedom. 
+Another way to think about the non-independence is to consider that if you knew the mean and one of the scores, you would know the other score. 
+
+In general, the degrees of freedom for an estimate is equal to the number of values minus the number of parameters estimated en route to the estimate in question.
+Therefore, the degrees of freedom of an estimate of variance is equal to N - 1, where N is the number of observations.
+s2 = sum(X-M)2/(N-1)
+
+Characteristics of Estimators
+This section discusses two important characteristics of statistics used as point estimates of parameters: bias and sampling variability.
+Bias refers to whether an estimator tends to either over or underestimate the parameter. 
+Sampling variability refers to how much the estimate varies from sample to sample.
+
+A statistic is biased if the long-term average value of the statistic is not the parameter it is estimating.
+More formally, a statistic is biased if the mean of the sampling distribution of the statistic is not equal to the parameter.
+The mean of the sampling distribution of a statistic is sometimes referred to as the expected value of the statistic.
+
+As we saw in the section on the sampling distribution of the mean, the mean of the sampling distribution of the (sample) mean is the population mean (μ). 
+Therefore the sample mean is an unbiased estimate of μ. 
+Any given sample mean may underestimate or overestimate μ, but there is no systematic tendency for sample means to either under or overestimate μ.
+
+if N is used in the formula for s2, then the estimates tend to be too low and therefore biased. 
+The formula with N-1 in the denominator gives an unbiased estimate of the population variance. 
+Note that N-1 is the degrees of freedom.
+
+Sampling Variability
+The sampling variability of a statistic refers to how much the statistic varies from sample to sample and is usually measured by its standard error ; 
+the smaller the standard error, the less the sampling variability.
+
+Statistics differ in their sampling variability even with the same sample size. 
+For example, for normal distributions, the standard error of the median is larger than the standard error of the mean. 
+The smaller the standard error of a statistic, the more efficient the statistic. 
+The relative efficiency of two statistics is typically defined as the ratio of their standard errors.
+
+
+Minimizing total model error relies on the balancing of bias and variance errors. 
+Ideally, models are the result of a collection of unbiased data of low variance. 
+Unfortunately, however, the more complex a model becomes, its tendency is toward less bias but greater variance; therefore an optimal model would need to consider a balance between these 2 properties.
+
+The statistical evaluation method of cross-validation is useful in both demonstrating the importance of this balance, as well as actually searching it out. 
+The number of data folds to use -- the value of k in k-fold cross-validation -- is an important decision; the lower the value, the higher the bias in the error estimates and the less variance.
+
+Bias and variance contributing to total error, Image sourceConversely, when k is set equal to the number of instances, the error estimate is then very low in bias but has the possibility of high variance.
+The most important takeaways are that bias and variance are two sides of an important trade-off when building models, and that even the most routine of statistical evaluation methods are directly reliant upon such a trade-off.
+
+Confidence Intervals Introduction
+A point estimate by itself is of limited usefulness because it does not reveal the uncertainty associated with the estimate; 
+you do not have a good sense of how far this sample mean may be from the population mean. 
+Confidence intervals provide more information than point estimates.  
+
+Confidence intervals for means are intervals constructed using a procedure (presented in the next section) 
+that will contain the population mean a specified proportion of the time, typically either 95% or 99% of the time. 
+These intervals are referred to as 95% and 99% confidence intervals respectively. 
+
+If repeated samples were taken and the 95% confidence interval computed for each sample, 95% of the intervals would contain the population mean. 
+Naturally, 5% of the intervals would not contain the population mean.
+
+Confidence Interval on the Mean
+When you compute a confidence interval on the mean, you compute the mean of a sample in order to estimate the mean of the population. 
+Clearly, if you already knew the population mean, there would be no need for a confidence interval. 
+You should use the t distribution rather than the normal distribution when the variance is not known and has to be estimated from sample data. 
