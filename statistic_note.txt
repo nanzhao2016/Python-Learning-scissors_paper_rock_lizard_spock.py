@@ -899,5 +899,26 @@ Dividing by N because p is a mean not a total, we find the standard error of p:
 
 The sampling distribution of p is a discrete rather than a continuous distribution.
 The sampling distribution of p is approximately normally distributed if N is fairly large and π is not close to 0 or 1. 
-A rule of thumb is that the approximation is good if both Nπ and N(1 - π) are greater than 10. 
+A rule of thumb is that the approximation is good if both Nπ and N(1 - π) are greater than 10.
+
+Part. 10 Estimation
+Population
+A population is the complete set of observations a researcher is interested in.
+Contrast this with a sample which is a subset of a population.
+A population can be defined in a manner convenient for a researcher.
+Inferential statistics are computed from sample data in order to make inferences about the population.
+Parameter
+A value calculated in a population. For example, the mean of the numbers in a population is a parameter.
+Compare with a statistic, which is a value computed in a sample to estimate a parameter.
+point estimate: an estimate consists a signal point or value
+
+Point estimates are usually supplemented by interval estimates called confidence intervals.
+Confidence intervals are intervals constructed using a method that contains the population parameter a specified proportion of the time.
+
+One of the major applications of statistics is estimating population parameters from sample statistics.
+
+Degrees of Freedom
+Some estimates are based on more information than others.
+For example, an estimate of the variance based on a sample size of 100 is based on more information than an estimate of the variance based on a sample size of 5.
+The degrees of freedom (df) of an estimate is the number of independent pieces of information on which the estimate is based.
  
