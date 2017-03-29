@@ -990,6 +990,57 @@ If repeated samples were taken and the 95% confidence interval computed for each
 Naturally, 5% of the intervals would not contain the population mean.
 
 Confidence Interval on the Mean
+
+In general, you compute the 95% confidence interval for the mean with the following formula:
+Lower limit = M - Z.95σM
+Upper limit = M + Z.95σM
+
+where Z.95 is the number of standard deviations extending from the mean of a normal distribution required to contain 0.95 of the area
+and σM is the standard error of the mean.
+
+If you look closely at this formula for a confidence interval, you will notice that you need to know the standard deviation (σ) in order to estimate the mean.
+This may sound unrealistic, and it is. However, computing a confidence interval when σ is known is easier than when σ has to be estimated, and serves a pedagogical purpose.
+
 When you compute a confidence interval on the mean, you compute the mean of a sample in order to estimate the mean of the population. 
 Clearly, if you already knew the population mean, there would be no need for a confidence interval. 
-You should use the t distribution rather than the normal distribution when the variance is not known and has to be estimated from sample data. 
+You should use the t distribution rather than the normal distribution when the variance is not known and has to be estimated from sample data.
+
+When the sample size is large, say 100 or above, the t distribution is very similar to the standard normal distribution.
+However, with smaller sample sizes, the t distribution is leptokurtic, which means it has relatively more scores in its tails than does the normal distribution.
+
+Assume that the following five numbers are sampled from a normal distribution: 2, 3, 5, 6, and 9 and that the standard deviation is not known. 
+The first steps are to compute the sample mean and variance:
+
+        M = 5
+        s2 = 7.5
+The next step is to estimate the standard error of the mean. If we knew the population variance, we could use the following formula:
+
+σM = σ/sqrt(N) 
+Instead we compute an estimate of the standard error (sM):
+sM = s/sqrt(N)= 1.225
+
+The next step is to find the value of t. As you can see from Table 1, the value for the 95% interval for df = N - 1 = 4 is 2.776.
+The confidence interval is then computed just as it is when σM.
+The only differences are that sM and t rather than σM and Z are used.
+
+Lower limit = 5 - (2.776)(1.225) = 1.60
+Upper limit = 5 + (2.776)(1.225) = 8.40
+
+
+More generally, the formula for the 95% confidence interval on the mean is:
+Lower limit = M - (tCL)(sM)
+Upper limit = M + (tCL)(sM)
+
+where M is the sample mean, tCL is the t for the confidence level desired (0.95 in the above example),
+and sM is the estimated standard error of the mean.
+
+t Distribution
+Intuitively, it makes sense that the probability of being within 1.96 standard errors of the mean should be smaller than in the case when the standard deviation is known (and cannot be underestimated).
+But exactly how much smaller? Fortunately, the way to work out this type of problem was solved in the early 20th century by W. S. Gosset
+who determined the distribution of a mean divided by an estimate of its standard error.
+
+he t distribution is very similar to the normal distribution when the estimate of variance is based on many degrees of freedom, but has relatively more scores in its tails when there are fewer degrees of freedom.
+Since the t distribution is leptokurtic, the percentage of the distribution within 1.96 standard deviations of the mean is less than the 95% for the normal distribution.
+
+Difference between Means
+It is much more common for a researcher to be interested in the difference between means than in the specific values of the means themselves. 
