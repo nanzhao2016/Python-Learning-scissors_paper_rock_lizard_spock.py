@@ -1044,3 +1044,89 @@ Since the t distribution is leptokurtic, the percentage of the distribution with
 
 Difference between Means
 It is much more common for a researcher to be interested in the difference between means than in the specific values of the means themselves. 
+
+Difference between Means
+
+In order to construct a confidence interval, we are going to make three assumptions:
+
+1. The two populations have the same variance. This assumption is called the assumption of homogeneity of variance.
+2. The populations are normally distributed.
+3. Each value is sampled independently from each other value.
+
+A confidence interval on the difference between means is computed using the following formula:
+Lower Limit = M1 - M2 -(tCL)(Sm1-m2)
+Upper Limit = M1 - M2 +(tCL)(Sm1-m2)
+
+where M1 - M2 is the difference between sample means, tCL is the t for the desired level of confidence, and  is the estimated standard error of the difference between sample means. 
+
+The first step is to compute the estimate of the standard error of the difference between means (Sm1-m2).
+
+In order to estimate this quantity, we estimate σ2 and use that estimate in place of σ2. 
+Since we are assuming the population variances are the same, we estimate this variance by averaging our two sample variances. 
+Thus, our estimate of variance is computed using the following formula:
+MSE = ((S1)2 + (S2)2)/2
+
+where MSE is our estimate of σ2. 
+Note that MSE stands for "mean square error" and is the mean squared deviation of each score from its group's mean.
+
+Sm1-m2 = sqrt(MSE/N)
+
+The next step is to find the t to use for the confidence interval (tCL). 
+To calculate tCL, we need to know the degrees of freedom. 
+The degrees of freedom is the number of independent estimates of variance on which MSE is based. 
+This is equal to (n1 - 1) + (n2 - 1) where n1 is the sample size of the first group and n2 is the sample size of the second group. 
+
+Computations for Unequal Sample Sizes (optional)
+
+The calculations are somewhat more complicated when the sample sizes are not equal. 
+One consideration is that MSE, the estimate of variance, counts the sample with the larger sample size more than the sample with the smaller sample size. 
+Computationally this is done by computing the sum of squares error (SSE) as follows:
+
+SSE = sum(X-M1)2 + sum(X-M2)2
+where M1 is the mean for group 1 and M2 is the mean for group 2.
+
+Then, MSE is computed by: MSE = SSE/df
+
+The formula Sm1-m2 = sqrt(MSE/N)
+is replaced by
+
+Sm1-m2 = sqrt(MSE/Nh)
+
+Nh is the harmonic mean of the sample size and is computed as follows:
+Nh = 2/ ((1/n1)+ (1/n2))
+
+Correlation
+
+The steps in computing a confidence interval for ρ are:
+1. Convert r to z'
+2. Compute a confidence interval in terms of z'
+3. Convert the confidence interval back to r.
+
+Proportion
+Although this point estimate of the proportion is informative, it is important to also compute a confidence interval. 
+The confidence interval is computed based on the mean and standard deviation of the sampling distribution of a proportion. 
+µp = π
+σp = sqrt(π(1-π)/N)
+
+Since we do not know the population parameter π, we use the sample proportion p as an estimate. The estimated standard error of p is therefore
+sp = sqrt(p(1-p)/N)
+
+We start by taking our statistic (p) and creating an interval that ranges (Z.95)(sp) in both directions, 
+where Z.95 is the number of standard deviations extending from the mean of a normal distribution required to contain 0.95 of the area.
+
+The value of Z.95 is computed with the normal calculator and is equal to 1.96. 
+We then make a slight adjustment to correct for the fact that the distribution is discrete rather than continuous.
+
+To correct for the fact that we are approximating a discrete distribution with a continuous distribution (the normal distribution), 
+we subtract 0.5/N from the lower limit and add 0.5/N to the upper limit of the interval. 
+
+Margin of Error
+
+When a statistic is used to estimate a parameter, it is common to compute a confidence interval. 
+The margin of error is the difference between the statistic and the endpoints of the interval. 
+For example, if the statistic were 0.6 and the confidence interval ranged from 0.4 to 0.8, then the margin of error would be 0.20. 
+Unless otherwise specified, the 95% confidence interval is used.
+
+Keep in mind that the margin of error of 4.5% is the margin of error for the percent favoring the candidate 
+and not the margin of error for the difference between the percent favoring the candidate and the percent favoring the opponent. 
+The margin of error for the difference is 9%, twice the margin of error for the individual percent.
