@@ -1130,3 +1130,93 @@ Unless otherwise specified, the 95% confidence interval is used.
 Keep in mind that the margin of error of 4.5% is the margin of error for the percent favoring the candidate 
 and not the margin of error for the difference between the percent favoring the candidate and the percent favoring the opponent. 
 The margin of error for the difference is 9%, twice the margin of error for the individual percent.
+
+Part11. Logic of Hypothesis Testing
+Random assignment of charts does not ensure that the groups will be equal in all respects other than the chart they viewed. 
+In fact, it is certain the two groups differed in many ways by chance.
+
+The Probability Value
+
+The probability of 0.0106 is the probability of a certain outcome (13 or more out of 16) assuming a certain state of the world (James Bond was only guessing). 
+It is not the probability that a state of the world is true.
+
+To reiterate, the probability value is the probability of an outcome (9/16 or better) and not the probability of a particular state of the world (the bird was only guessing).
+
+In statistics, it is conventional to refer to possible states of the world as hypotheses since they are hypothesized states of the world. 
+Using this terminology, the probability value is the probability of an outcome given the hypothesis. It is not the probability of the hypothesis given the outcome.
+
+This is not to say that we ignore the probability of the hypothesis. 
+If the probability of the outcome given the hypothesis is sufficiently low, we have evidence that the hypothesis is false. 
+However, we do not compute the probability that the hypothesis is false. 
+
+The Null Hypothesis
+The hypothesis that an apparent effect is due to chance is called the null hypothesis. 
+
+Although the null hypothesis is usually that the value of a parameter is 0, there are occasions in which the null hypothesis is a value other than 0. 
+For example, if one were testing whether a subject differed from chance in their ability to determine whether a flipped coin would come up heads or tails, the null hypothesis would be that π = 0.5.
+
+Significance Testing
+It is conventional to conclude the null hypothesis is false if the probability value is less than 0.05. 
+More conservative researchers conclude the null hypothesis is false only if the probability value is less than 0.01. 
+
+The probability value below which the null hypothesis is rejected is called the α (alpha) level or simply α. It is also called the significance level.
+
+When the null hypothesis is rejected, the effect is said to be statistically significant. 
+
+For example, in the Physicians' Reactions case study, the probability value is 0.0057. 
+Therefore, the effect of obesity is statistically significant and the null hypothesis that obesity makes no difference is rejected. 
+
+It is very important to keep in mind that statistical significance means only that the null hypothesis of exactly no effect is rejected; it does not mean that the effect is important, which is what "significant" usually means. 
+When an effect is significant, you can have confidence the effect is not exactly zero. Finding that an effect is significant does not tell you about how large or important the effect is.
+
+Do not confuse statistical significance with practical significance. A small effect can be highly significant if the sample size is large enough.
+
+There are two approaches (at least) to conducting significance tests. 
+In one (favored by R. Fisher), a significance test is conducted and the probability value reflects the strength of the evidence against the null hypothesis. 
+If the probability is below 0.01, the data provide strong evidence that the null hypothesis is false. 
+If the probability value is below 0.05 but larger than 0.01, then the null hypothesis is typically rejected, but not with as much confidence as it would be if the probability value were below 0.01. 
+Probability values between 0.05 and 0.10 provide weak evidence against the null hypothesis and, by convention, are not considered low enough to justify rejecting it. 
+Higher probabilities provide less evidence that the null hypothesis is false.
+
+The alternative approach (favored by the statisticians Neyman and Pearson) is to specify an α level before analyzing the data. 
+If the data analysis results in a probability value below the α level, then the null hypothesis is rejected; 
+if it is not, then the null hypothesis is not rejected. 
+According to this perspective, if a result is significant, then it does not matter how significant it is. 
+Moreover, if it is not significant, then it does not matter how close to being significant it is. 
+Therefore, if the 0.05 level is being used, then probability values of 0.049 and 0.001 are treated identically. 
+Similarly, probability values of 0.06 and 0.34 are treated identically.
+
+Type I and Type II Errors
+Despite the low probability value, it is possible that the null hypothesis of no true difference between obese and average-weight patients is true and that the large difference between sample means occurred by chance. 
+If this is the case, then the conclusion that physicians intend to spend less time with obese patients is in error. 
+This type of error is called a Type I error.
+
+More generally, a Type I error occurs when a significance test results in the rejection of a true null hypothesis.
+
+As discussed in the section on significance testing, it is better to interpret the probability value as an indication of the weight of evidence against the null hypothesis 
+than as part of a decision rule for making a reject or do-not-reject decision. 
+Therefore, keep in mind that rejecting the null hypothesis is not an all-or-nothing decision.
+
+The Type I error rate is affected by the α level: the lower the α level, the lower the Type I error rate. 
+It might seem that α is the probability of a Type I error. 
+However, this is not correct. Instead, α is the probability of a Type I error given that the null hypothesis is true. 
+If the null hypothesis is false, then it is impossible to make a Type I error.
+
+The second type of error that can be made in significance testing is failing to reject a false null hypothesis. 
+This kind of error is called a Type II error. 
+
+Unlike a Type I error, a Type II error is not really an error. 
+When a statistical test is not significant, it means that the data do not provide strong evidence that the null hypothesis is false. 
+Lack of significance does not support the conclusion that the null hypothesis is true. 
+Therefore, a researcher should not make the mistake of incorrectly concluding that the null hypothesis is true when a statistical test was not significant. 
+Instead, the researcher should consider the test inconclusive. 
+Contrast this with a Type I error in which the researcher erroneously concludes that the null hypothesis is false when, in fact, it is true.
+
+A Type II error can only occur if the null hypothesis is false. 
+If the null hypothesis is false, then the probability of a Type II error is called β (beta). 
+The probability of correctly rejecting a false null hypothesis equals 1- β and is called power.
+
+One- and Two-Tailed Tests
+
+Two-tailed tests are much more common than one-tailed tests in scientific research because an outcome signifying that something other than chance is operating is usually worth noting. 
+One-tailed tests are appropriate when it is not important to distinguish between no effect and an effect in the unexpected direction. 
