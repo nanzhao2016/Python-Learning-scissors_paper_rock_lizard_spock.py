@@ -1220,3 +1220,25 @@ One- and Two-Tailed Tests
 
 Two-tailed tests are much more common than one-tailed tests in scientific research because an outcome signifying that something other than chance is operating is usually worth noting. 
 One-tailed tests are appropriate when it is not important to distinguish between no effect and an effect in the unexpected direction. 
+
+Steps in Hypothesis Testing
+1. The first step is to specify the null hypothesis. For a two-tailed test, the null hypothesis is typically that a parameter equals zero although there are exceptions. 
+For a one-tailed test, the null hypothesis is either that a parameter is greater than or equal to zero or that a parameter is less than or equal to zero. 
+
+2. The second step is to specify the α level which is also known as the significance level. Typical values are 0.05 and 0.01. 
+
+3. The third step is to compute the probability value (also known as the p value). 
+This is the probability of obtaining a sample statistic as different or more different from the parameter specified in the null hypothesis given that the null hypothesis is true.
+
+4. Finally, compare the probability value with the α level. 
+If the probability value is lower then you reject the null hypothesis. 
+ Keep in mind that rejecting the null hypothesis is not an all-or-none decision. 
+ The lower the probability value, the more confidence you can have that the null hypothesis is false. 
+ However, if your probability value is higher than the conventional α level of 0.05, most scientists will consider your findings inconclusive. 
+ Failure to reject the null hypothesis does not constitute support for the null hypothesis. It just means you do not have sufficiently strong data to reject it.
+ 
+ Significance Testing and Confidence Intervals
+ Whenever an effect is significant, all values in the confidence interval will be on the same side of zero (either all positive or all negative). 
+ Therefore, a significant finding allows the researcher to specify the direction of the effect. 
+ 
+ If the 95% confidence interval contains zero (more precisely, the parameter value specified in the null hypothesis), then the effect will not be significant at the 0.05 level.
