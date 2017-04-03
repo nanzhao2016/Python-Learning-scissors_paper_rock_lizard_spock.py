@@ -1242,3 +1242,43 @@ If the probability value is lower then you reject the null hypothesis.
  Therefore, a significant finding allows the researcher to specify the direction of the effect. 
  
  If the 95% confidence interval contains zero (more precisely, the parameter value specified in the null hypothesis), then the effect will not be significant at the 0.05 level.
+ 
+ 
+Part.12 Tests of Means
+
+Testing a Single Mean
+This section shows how to test the null hypothesis that the population mean is equal to some hypothesized value.
+The significance test consists of computing the probability of a sample mean differing from μ by one (the difference between the hypothesized population mean and the sample mean) or more.
+Difference between a sample mean and a specific value 
+
+we compute t using a special case of the following formula:
+t = (statistic - hypothesizd value)/estimated standard error of the statistic
+
+t  = (M-µ)/sM
+where t is the value we compute for the significance test, M is the sample mean, μ is the hypothesized value of the population mean, and sM is the estimated standard error of the mean.
+
+Difference between Two Means (Independent Groups)
+This section covers how to test for differences between means from two separate groups of subjects. 
+What is important is whether there is a difference in the population means.
+
+In order to test whether there is a difference between population means, we are going to make three assumptions:
+1. The two populations have the same variance. This assumption is called the assumption of homogeneity of variance.
+2. The populations are normally distributed.
+3. Each value is sampled independently from each other value. This assumption requires that each subject provide only one value. 
+If a subject provides two scores, then the scores are not independent. The analysis of data with two scores per subject is shown in the section on the correlated t test later in this chapter.
+
+between two groups, with the same sample number:
+
+MSE = 1/2(s1^2+s2^2)
+standard error = sqrt(2*MSE/N)
+
+between two groups, with different sample numbers:
+
+MSE = SSE/df
+SSE: sum of squares error 
+SSE = sum(X-M1)^2 + sum(X-M2)^2
+Nh = 2/(1/N1 + 1/N2)
+
+standars error = sqrt(2*MSE/Nh)
+
+A test is robust to violations of its assumptions if the test is only slightly affected by these violations.
