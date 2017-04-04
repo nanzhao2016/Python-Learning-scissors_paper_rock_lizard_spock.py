@@ -1282,3 +1282,6 @@ Nh = 2/(1/N1 + 1/N2)
 standars error = sqrt(2*MSE/Nh)
 
 A test is robust to violations of its assumptions if the test is only slightly affected by these violations.
+
+All Pairwise Comparisons Among Means
+Tukey Honestly Significant Difference test
