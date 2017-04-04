@@ -1283,5 +1283,53 @@ standars error = sqrt(2*MSE/Nh)
 
 A test is robust to violations of its assumptions if the test is only slightly affected by these violations.
 
+
 All Pairwise Comparisons Among Means
-Tukey Honestly Significant Difference test
+Problem: The more means that are compared, the more the Type I error rate is inflated. 
+Solution:
+Tukey Honestly Significant Difference test, Tukey test, Tukey HSD
+Studentized Range Distribution
+
+to calcule the significant value: 
+Q = (Mi-Mj)/sqrt(MSE/n)
+degree of freedom
+number of groups
+
+
+
+Specific Comparisons (Independent Groups)
+This section shows how to test these more complex comparisons. 
+The methods in this section assume that the comparison among means was decided on before looking at the data. 
+Therefore these comparisons are called planned comparisons.
+We call the value "L" for "linear combination."
+L=sum(ciMi)
+t = L/sqrt(sum(ci)^2MSE/n)
+
+In a later chapter on Analysis of Variance, you will see that comparisons such as this are testing what is called an interaction. 
+In general, there is an interaction when the effect of one variable differs as a function of the level of another variable. 
+
+Multiple Comparisons
+The more comparisons you make, the greater your chance of a Type I error. 
+It is useful to distinguish between two error rates: (1) the per-comparison error rate and (2) the familywise error rate. 
+The per-comparison error rate is the probability of a Type I error for a particular comparison. 
+The familywise error rate is the probability of making one or more Type I errors in a family or set of comparisons. 
+
+Fortunately, there is a simple approximation that is fairly accurate when the number of comparisons is small. 
+Defining α as the per-comparison error rate and c as the number of comparisons, the following inequality always holds true for the familywise error rate (FW):
+FW <=cα
+This inequality is called the Bonferroni inequality.
+
+The Bonferroni inequality can be used to control the familywise error rate as follows: If you want the familywise error rate to be α, you use α/c as the per-comparison error rate. 
+This correction, called the Bonferroni correction, will generally result in a familywise error rate less than α.
+
+The disadvantage of controlling the familywise error rate is that it makes it more difficult to obtain a significant result for any given comparison: 
+The more comparisons you do, the lower the per-comparison rate must be and therefore the harder it is to reach significance. 
+
+Difference Between Two Means (Correlated Pairs)
+
+How does the size of the correlation affect how much change scores vary?
+The higher the correlation, the less change scores vary.
+
+Specific Comparisons (Correlated Observations)
+Pairwise Comparisons (Correlated Observations)
+Bonferroni adjustments are necessary when making multiple comparisons because they keep the Type I error rate from being inflated.

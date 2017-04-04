@@ -1,0 +1,65 @@
+http://onlinestatbook.com/2/case_studies/guns.html
+
+Overview
+The "weapons effect" is the finding that the presence of a weapon or even a picture of a weapon can cause people to behave more aggressively. Although once a controversial finding, the weapons effect is now a well-established phenomenon. Based on this, Anderson, Benjamin, and Bartholow (1998) hypothesize that the presence of a weapon-word prime (such as "dagger" or "bullet") should increase the accessibility of an aggressive word (such as "destroy" or "wound"). The accessibility of a word can be measured by the time it takes to name a word presented on computer screen.
+
+The subjects were undergraduate students ranging in age from 18 to 24 years. They were told that the purpose of this study was to test reading ability of various words. On each of the 192 trials, a computer presented a priming stimulus word (either a weapon or non-weapon word) for 1.25 seconds, a blank screen for 0.5 seconds, and then a target word (aggressive or non-aggressive word). Each subject named both aggressive and non-aggressive words following both weapon and non-weapon "primes." The experimenter instructed the subjects to read the first word to themselves and then to read the second word out loud as quickly as they could. The computer recorded response times and computed mean response times for each participant for each of the four conditions.
+
+Examples of the four types of words:
+Weapon word primes: shotgun, grenade
+Non-weapon word primes: rabbit, fish
+Aggressive word: injure, shatter
+Non-aggressive word: consider, relocate
+
+
+
+Questions to Answer
+Does the mere presence of a weapon increase the accessibility of aggressive thoughts? More specifically, can a person name an aggressive word more quickly if it is preceded by a weapon word prime than if it is preceded by a neutral (non-aggressive) word prime? 
+
+
+Design Issues 
+This is a within-subjects design, and each participant provided four scores to the analysis. 
+
+Descriptions of Variables
+Variable	Description
+gender	1 = female, 2 = male
+aw	The time in milliseconds (msec) to name aggressive word following a weapon word prime.
+an	The time in milliseconds (msec) to name aggressive word following a non-weapon word prime.
+cw	The time in milliseconds (msec) to name a control word following a weapon word prime.
+cn	The time in milliseconds (msec) to name a control word following a non-weapon word prime.
+
+
+References
+Anderson, C.A., Benjamin, A.J., & Bartholow, B.D. (1998). Does the gun pull the trigger? Automatic priming effects of weapon pictures and weapon names. Psychological Science, 9, 308-314.
+
+ 
+
+
+Links
+Craig Anderson's Annual Review of Psychology article
+
+
+Exercises
+Create a box plot of the distribution of reaction times for each condition (aw, an, cw, and cn).
+Create a histogram, stem and leaf display, and normal quantile plot for the variable cw. In what way does the distribution differ from a normal distribution?
+What is the mean response time for each of the four conditions? In which condition do participants respond the fastest?
+Recall that the hypothesis is that a person can name an aggressive word more quickly if it is preceded by a weapon word prime than if it is preceded by a neutral word prime. The first step in testing this hypothesis is to compute the difference between (a) the naming time of aggressive words when preceded by a neutral word prime and (b) the naming time of aggressive words when preceded by a weapon word prime separately for each of the 32 participants. That is, compute an - aw for each participants.
+Would the hypothesis of this study would be supported if the difference were positive or if it were negative?
+What is the mean of this difference score?
+What is the standard deviation of this difference score?
+What is the confidence interval of the mean difference score?
+Compute a t test of whether the sample mean differs significantly from 0.
+Is the hypothesis supported?
+Compare the results of #4 with the results of a within-subjects ANOVA using the variables an and aw.
+Compute cn-cw for each participant. This difference represents the how much preceding a non-aggressive word by a weapon word decreases the time it takes to name the non-aggressive word. Compare the mean of cn-cw with the mean of an-aw.?
+Subtract the difference score (cn-cw) from the difference score (an-aw). We will refer to this difference in difference scores as primediff.
+Plot a histogram of primediff.
+Is this variable positively or negatively skewed?
+What is the mean of this new variable, primediff?
+What is the range?
+Is this mean significantly different from 0?
+
+Compute a 2x2 within-subjects ANOVA on this data with the following two factors: prime type (was the first word a weapon or not?) and word type (was the second word aggressive or non-aggressive?).
+What are the df, F, and p of the main effects?
+The hypothesis is that the effect of prime type will be larger for aggressive than for non-aggressive words. In ANOVA terms, the hypothesis is that there will be Word Type x Prime Type interaction. Is the hypothesis supported?
+How does the test of the interaction compare with your t test in #7?
