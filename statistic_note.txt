@@ -1333,3 +1333,93 @@ The higher the correlation, the less change scores vary.
 Specific Comparisons (Correlated Observations)
 Pairwise Comparisons (Correlated Observations)
 Bonferroni adjustments are necessary when making multiple comparisons because they keep the Type I error rate from being inflated.
+
+Part.14 Regression
+Partitioning the Sums of Squares
+
+One useful aspect of regression is that it can divide the variation in Y into two parts: the variation of the predicted scores and the variation of the errors of prediction. 
+The variation of Y is called the sum of squares Y and is defined as the sum of the squared deviations of Y from the mean of Y. In the population, the formula is
+
+SSY = sum(Y-µy)^2 (deviation of criterion scores)
+where SSY is the sum of squares Y, Y is an individual value of Y, and μy is the mean of Y.
+
+SSY can be partitioned into two parts: the sum of squares predicted (SSY') and the sum of squares error (SSE). 
+The sum of squares predicted is the sum of the squared deviations of the predicted scores from the mean predicted score.
+The sum of squares error is the sum of the squared errors of prediction. 
+
+SSY' = sum(Y'-µy')^2 (deviation of predicted scores)
+SSE = sum(Y-Y')^2 (error)
+
+SSY = SSY' +  SSE
+
+The SSY is the total variation, the SSY' is the variation explained, and the SSE is the variation unexplained. Therefore, the proportion of variation explained can be computed as:
+Proportion explained = SSY'/SSY
+
+There is an important relationship between the proportion of variation explained and Pearson's correlation: r2 is the proportion of variation explained. 
+Therefore, if r = 1, then, naturally, the proportion of variation explained is 1; if r = 0, then the proportion explained is 0. 
+
+Since the variance is computed by dividing the variation by N (for a population) or N-1 (for a sample), the relationships spelled out above in terms of variation also hold for variance. 
+
+The degrees of freedom column (df) shows the degrees of freedom for each source of variation. 
+The degrees of freedom for the sum of squares explained (SSY') is equal to the number of predictor variables (number of X).
+The error degrees of freedom is equal to the total number of observations minus 2. (slope and intercept are estimated)
+The total degrees of freedom is the total number of observations minus 1.   
+
+Standard Error of the Estimate
+The standard error of the estimate is a measure of the accuracy of predictions. 
+Recall that the regression line is the line that minimizes the sum of squared deviations of prediction (also called the sum of squares error).
+The standard error of the estimate is closely related to this quantity and is defined below:
+
+σest = sqrt((sum(Y-Y')^2)/N)
+
+where σest is the standard error of the estimate, Y is an actual score, Y' is a predicted score, and N is the number of pairs of scores. 
+The numerator is the sum of squared differences between the actual scores and the predicted scores.
+
+There is a version of the formula for the standard error in terms of Pearson's correlation:
+
+σest = sqrt((1-ρ^2)SSY/N)
+
+where ρ is the population value of Pearson's correlation and SSY is
+SSY = sum(Y-µy)^2
+
+Inferential Statistics for b and r
+Although no assumptions were needed to determine the best-fitting straight line, assumptions are made in the calculation of inferential statistics.
+Naturally, these assumptions refer to the population, not the sample.
+1. Linearity: The relationship between the two variables is linear.
+2. Homoscedasticity: The variance around the regression line is the same for all values of X.
+3. The errors of prediction are distributed normally. 
+	This means that the deviations from the regression line are normally distributed. It does not mean that X or Y is normally distributed.
+
+Influential Observations
+Influence
+The influence of an observation can be thought of in terms of how much the predicted scores for other observations would differ if the observation in question were not included. 
+Cook's D is a good measure of the influence of an observation and is proportional to the sum of the squared differences between predictions made with all observations in the analysis 
+and predictions made leaving out the observation in question.
+
+An observation's influence is a function of two factors: 
+(1) how much the observation's value on the predictor variable differs from the mean of the predictor variable and 
+(2) the difference between the predicted score for the observation and its actual score. 
+The former factor is called the observation's leverage. The latter factor is called the observation's distance.
+
+Leverage
+The leverage of an observation is based on how much the observation's value on the predictor variable differs from the mean of the predictor variable. 
+The greater an observation's leverage, the more potential it has to be an influential observation.
+For example, an observation with a value equal to the mean on the predictor variable has no influence on the slope of the regression line regardless of its value on the criterion variable. 
+On the other hand, an observation that is extreme on the predictor variable has the potential to affect the slope greatly.
+
+Calculation of Leverage (h)
+The first step is to standardize the predictor variable so that it has a mean of 0 and a standard deviation of 1. 
+Then, the leverage (h) is computed by squaring the observation's value on the standardized predictor variable, adding 1, and dividing by the number of observations.
+
+Xst = (X-Mx)/σx
+h = Xst^2/N
+
+Distance
+The distance of an observation is based on the error of prediction for the observation: The greater the error of prediction, the greater the distance. 
+The most commonly used measure of distance is the studentized residual. 
+The studentized residual for an observation is closely related to the error of prediction for that observation divided by the standard deviation of the errors of prediction. 
+However, the predicted score is derived from a regression equation in which the observation in question is not counted.
+
+Regression Toward the Mean
+
+Introduction to Multiple Regression 
