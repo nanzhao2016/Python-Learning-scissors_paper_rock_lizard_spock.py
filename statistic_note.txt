@@ -1423,3 +1423,24 @@ However, the predicted score is derived from a regression equation in which the 
 Regression Toward the Mean
 
 Introduction to Multiple Regression 
+
+It is difficult to compare the coefficients for different variables directly because they are measured on different scales. 
+A difference of 1 in HSGPA is a fairly large difference, whereas a difference of 1 on the SAT is negligible. 
+Therefore, it can be advantageous to transform the variables so that they are on the same scale. 
+The most straightforward approach is to standardize the variables so that they each have a standard deviation of 1. 
+A regression weight for standardized variables is called a "beta weight" and is designated by the Greek letter β. 
+For these data, the beta weights are 0.625 and 0.198. 
+
+Partitioning the Sums of Squares
+SSY = SSY' + SSE
+The sum of squares predicted is also referred to as the "sum of squares explained." 
+Proportion Explained = SSY'/SSY
+
+In simple regression, the proportion of variance explained is equal to r2; in multiple regression, the proportion of variance explained is equal to R2.
+
+The sum of squares uniquely attributable to a variable is computed by comparing two regression models: the complete model and a reduced model. 
+The complete model is the multiple regression with all the predictor variables included (HSGPA and SAT in this example). 
+A reduced model is a model that leaves out one of the predictor variables. 
+The sum of squares uniquely attributable to a variable is the sum of squares for the complete model minus the sum of squares for the reduced model in which the variable of interest is omitted.
+
+When variables are highly correlated, the variance explained uniquely by the individual variables can be small even though the variance explained by the variables taken together is large.
