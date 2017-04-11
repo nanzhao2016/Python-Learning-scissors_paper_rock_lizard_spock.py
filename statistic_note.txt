@@ -1462,3 +1462,111 @@ Since four types of smiles were compared, the factor "Type of Smile" has four le
 
 An ANOVA conducted on a design in which there is only one factor is called a one-way ANOVA.
 If an experiment has two factors, then the ANOVA is called a two-way ANOVA.
+
+One-Factor ANOVA (Between Subjects)
+Analysis of variance is a method for testing differences among means by analyzing variance. 
+H0: μ1 = μ2 = ... = μk
+
+Analysis of variance is a method for testing differences among means by analyzing variance. 
+The test is based on two estimates of the population variance (σ2). 
+One estimate is called the mean square error (MSE) and is based on differences among scores within the groups. 
+MSE estimates σ2 regardless of whether the null hypothesis is true (the population means are equal). 
+The second estimate is called the mean square between (MSB) and is based on differences among the sample means. 
+MSB only estimates σ2 if the population means are equal. If the population means are not equal, then MSB estimates a quantity larger than σ2.
+Therefore, if the MSB is much larger than the MSE, then the population means are unlikely to be equal.
+On the other hand, if the MSB is about the same as MSE, then the data are consistent with the null hypothesis that the population means are equal.
+
+Before proceeding with the calculation of MSE and MSB, it is important to consider the assumptions made by ANOVA:
+1. The populations have the same variance. This assumption is called the assumption of homogeneity of variance.
+2. The populations are normally distributed.
+3. Each value is sampled independently from each other value. 
+	This assumption requires that each subject provide only one value. 
+	If a subject provides two scores, then the values are not independent. 
+	The analysis of data with two scores per subject is shown in the section on within-subjects ANOVA later in this chapter.
+	
+Computing MSE
+Recall that the assumption of homogeneity of variance states that the variance within each of the populations (σ2) is the same. 
+This variance, σ2, is the quantity estimated by MSE and is computed as the mean of the sample variances.
+
+Computing MSB
+The formula for MSB is based on the fact that the variance of the sampling distribution of the mean is
+σ2M =  σ2/n
+where n is the sample size of each group. 
+so σ2 = σ2M*n
+
+Although we do not know the variance of the sampling distribution of the mean, we can estimate it with the variance of the sample means. 
+Recap
+If the population means are equal, then both MSE and MSB are estimates of σ2 and should therefore be about the same. 
+Naturally, they will not be exactly the same since they are just estimates and are based on different aspects of the data: 
+The MSB is computed from the sample means and the MSE is computed from the sample variances.
+
+If the population means are not equal, then MSE will still estimate σ2 because differences in population means do not affect variances. 
+However, differences in population means affect MSB since differences among population means are associated with differences among sample means. 
+
+It follows that the larger the differences among sample means, the larger the MSB. 
+In short, MSE estimates σ2 whether or not the population means are equal, whereas MSB estimates σ2 only when the population means are equal and estimates a larger quantity when they are not equal.
+
+Comparing MSE and MSB
+The critical step in an ANOVA is comparing MSE and MSB. 
+Since MSB estimates a larger quantity than MSE only when the population means are not equal, a finding of a larger MSB than an MSE is a sign that the population means are not equal. 
+
+we would need to know the probability of getting that big a difference or a bigger difference if the population means were all equal. 
+The mathematics necessary to answer this question were worked out by the statistician R. Fisher. 
+
+F = 9.179/2.649 = 3.465.
+
+Therefore, the MSB is 3.465 times higher than MSE. 
+Would this have been likely to happen if all the population means were equal? 
+That depends on the sample size. 
+With a small sample size, it would not be too surprising because results from small samples are unstable. 
+However, with a very large sample, the MSB and MSE are almost always about the same, and an F ratio of 3.465 or larger would be very unusual. 
+
+The shape of the F distribution depends on the sample size. More precisely, it depends on two degrees of freedom (df) parameters:
+one for the numerator (MSB) and one for the denominator (MSE).
+Since the MSB is the variance of k means, it has k - 1 df. The MSE is an average of k variances, each with n - 1 df. 
+Therefore, the df for MSE is k(n - 1) = N - k, where N is the total number of observations, n is the number of observations in each group, and k is the number of groups. 
+
+dfnumerator = k-1
+dfdenominator = N-k
+
+Relationship to the t test
+Since an ANOVA and an independent-groups t test can both test the difference between two means, you might be wondering which one to use. 
+Fortunately, it does not matter since the results will always be the same. 
+When there are only two groups, the following relationship between F and t will always hold:
+F(1,dfd) = t2(df)
+
+One of the important characteristics of ANOVA is that it partitions the variation into its various sources. 
+In ANOVA, the term sum of squares (SSQ) is used to indicate variation. 
+The total variation is defined as the sum of squared differences between each score and the mean of all subjects. 
+The mean of all subjects is called the grand mean and is designated as GM.
+
+When there is an equal number of subjects in each condition, the grand mean is the mean of the condition means.
+The total sum of squares is defined as
+SSQtotal = sum(X-GM)^2
+
+which means to take each score, subtract the grand mean from it, square the difference, and then sum up these squared values. 
+The sum of squares condition is calculated as shown below.
+
+SSQcondition = n*[(M1-GM)^2+(M2-GM)^2+...+(Mk-GM)^2]
+where n is the number of scores in each group, k is the number of groups, M1 is the mean for Condition 1, M2 is the mean for Condition 2, and Mk is the mean for Condition k.
+If there are unequal sample sizes, the only change is that the following formula is used for the sum of squares condition:
+
+SSQcondition = n1*(M1-GM)^2+n2*(M2-GM)^2+...+nk*(Mk-GM)^2
+where ni is the sample size of the ith condition. SSQtotal is computed the same way as shown above.
+
+The sum of squares error is the sum of the squared deviations of each score from its group mean. This can be written as
+SSQerror = sum(Xi1-M1)^2 + sum(Xi2-M2)^2 + ... + sum(Xik-Mk)^2
+where Xi1 is the ith score in group 1 and M1 is the mean for group 1, Xi2 is the ith score in group 2 and M2 is the mean for group 2, etc. 
+
+The sum of squares error can also be computed by subtraction:
+SSQerror = SSQtotal - SSQcondition
+
+Once the sums of squares have been computed, the mean squares (MSB and MSE) can be computed easily. The formulas are:
+MSB = SSQcondition/dfn
+
+which is the same value of MSB obtained previously (except for rounding error). Similarly,
+MSE = SSQerror/dfd
+
+False, both t tests and ANOVAs use both. 
+In a t test, the difference between means is in the numerator and the denominator is based on differences within groups. 
+In an ANOVA, the variance of the group means (multiplied by n) is the numerator. The denominator is based on differences within groups.
