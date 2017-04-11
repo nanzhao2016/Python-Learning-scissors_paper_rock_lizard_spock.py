@@ -12,7 +12,8 @@ There was a single person used for all the conditions. This may limit the genera
 
 Descriptions of Variables
 Variable	Description	
-Smile	1 is false smile
+Smile	
+1 is false smile
 2 is felt smile
 3 is miserable smile
 4 is neutral control

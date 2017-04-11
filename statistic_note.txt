@@ -1444,3 +1444,21 @@ A reduced model is a model that leaves out one of the predictor variables.
 The sum of squares uniquely attributable to a variable is the sum of squares for the complete model minus the sum of squares for the reduced model in which the variable of interest is omitted.
 
 When variables are highly correlated, the variance explained uniquely by the individual variables can be small even though the variance explained by the variables taken together is large.
+
+Part15. Analysis of Variance
+Analysis of Variance (ANOVA) is a statistical method used to test differences between two or more means.
+ANOVA tests the non-specific null hypothesis that all four population means are equal.
+This non-specific null hypothesis is sometimes called the omnibus null hypothesis. 
+
+When the omnibus null hypothesis is rejected, the conclusion is that at least one population mean is different from at least one other mean.
+However, since the ANOVA does not reveal which means are different from which, it offers less specific information than the Tukey HSD test.
+The Tukey HSD is therefore preferable to ANOVA in this situation.
+
+Factors and Levels
+The section on variables defined an independent variable as a variable manipulated by the experimenter.
+In describing an ANOVA design, the term factor is a synonym of independent variable.
+Therefore, "Type of Smile" is the factor in this experiment.
+Since four types of smiles were compared, the factor "Type of Smile" has four levels.
+
+An ANOVA conducted on a design in which there is only one factor is called a one-way ANOVA.
+If an experiment has two factors, then the ANOVA is called a two-way ANOVA.
